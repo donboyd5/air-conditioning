@@ -39,6 +39,7 @@ Cooling demand is one of the largest, most durable, climate-and-income-driven gr
 
 ## Changelog {.unnumbered}
 
+- **2026-06-28** — Expanded the [access appendix](accessing-non-us-names.qmd): ADR-vs-home-listing guidance for VRT/DKILY/ZSICY, the IRA limitation (Global Account is individual/joint only), and how to open a Global Account.
 - **2026-06-28** — Fourth pass. Added the [quality-of-growth vs. price screen](screen.qmd) (scoring model + scatter, reproducible from `data/screen_scores.csv`) and an [appendix on accessing non-US names](accessing-non-us-names.qmd) (Schwab routes, OTC ADRs, tickers for Daikin & Sanhua).
 - **2026-06-28** — Third pass. Added the [market-share chapter](market-share.qmd): global & US share tables (with caveats), the five growth pools, a growth-pool chart, a company×pool exposure matrix, and a share-of-growth tier ranking. Updated the JCI→Bosch deal to "completed Aug 2025."
 - **2026-06-28** — Second pass. Added glossary; regulation & pricing chapter (SEER2 status, ASP uplift, antitrust); recent-forecast comparison and IEA regional data table + charts; data-center cooling chapter (incl. Vertiv profile); picks-and-shovels adjacencies chapter (refrigerants + components); populated the financial comp table and added `ac_comp_sheet.xlsx`.

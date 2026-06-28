@@ -32,8 +32,38 @@ Several of the most interesting names in this notebook are not ordinary U.S.-lis
 
 **Sanhua.** Because the Shenzhen A-share (**002050.SZ**) isn't accessible, your two realistic routes are: the **Hong Kong H-share (2050)** via the Schwab Global Account in HKD, or the **OTC ADR (ZSICY)** in your regular U.S. account. A nuance worth knowing: Sanhua is an **"A+H" dual-listed** company, and H-shares (Hong Kong) frequently trade at a **different — often lower — price** than the A-shares (Shenzhen), even though they're the same company; the OTC ADR typically tracks one of those lines. Hong Kong does not withhold tax on dividends, which simplifies things versus some markets.
 
+## Is an ADR always the best route? Not quite
+
+A reasonable rule of thumb is "use the U.S. ADR when one exists" — it's the most *convenient* route (regular account, USD, normal hours). But "convenient" isn't always "best execution," and for a genuinely U.S.-listed company there's no ADR question at all. The three names this notebook focuses on illustrate all three cases:
+
+| Name | Best Schwab route | Why |
+|---|---|---|
+| **Vertiv** | **`VRT`** (ordinary NYSE listing) | Not an ADR situation — it's a normal U.S. stock, deepest liquidity, tightest spreads |
+| **Daikin** | **`DKILY`** (OTC ADR) | ADR convenience wins for buy-and-hold; large positions could use Tokyo `6367` via a Global Account |
+| **Sanhua** | **`ZSICY`** *or* **`2050`** (HK) | The ADR is convenient but likely **thin**; for a meaningful position the Hong Kong line may execute better |
+
+: When the ADR is best (Daikin), unnecessary (Vertiv), or arguably worse than the home listing (Sanhua). {#tbl-adr-vs-home}
+
+So: ADR is the right call for **Daikin**, irrelevant for **Vertiv** (just buy `VRT`), and the **weakest** for **Sanhua** — `ZSICY` is a recent, likely thinly traded OTC line, so check its live bid-ask spread and average volume, and use a **limit order**; if the spread looks wide, the Hong Kong shares (`2050`) via a Global Account may be the better fill. As a general practice for any OTC ADR (`DKILY`, `ZSICY`), use limit orders and note that unsponsored ADRs can carry small custody/pass-through fees.
+
+::: {.callout-warning}
+## Retirement accounts (IRAs): the Global Account is *not* available
+Schwab's Global Account is **"limited to individual and joint account registration types"** — it **cannot be opened under an IRA** [^schwabira]. In a retirement account you are therefore restricted to **U.S.-listed shares and OTC ADRs**, which all trade fine in an IRA: **`VRT`, `DKILY`, `ZSICY`**. The one place this bites is **Sanhua**: inside an IRA you can only use the **`ZSICY` ADR**, because the more-liquid Hong Kong line (`2050`) requires a Global Account. If `ZSICY` liquidity looks poor and you want Sanhua, that's an argument for holding it in a **taxable** account (with a Global Account) instead of an IRA.
+:::
+
+## Opening a Schwab Global Account
+
+If you decide you want a home-market listing (e.g., Sanhua `2050` in Hong Kong), the Global Account is an **add-on linked to a taxable Schwab One brokerage account** — not a standalone or retirement account:
+
+1. **Apply.** If you already have a Schwab One account, use the **Schwab Global Account Add-On Application**; if not, use the **Combo Application** (opens both at once). You can also call a **Global Investing Specialist at 800-992-4685** or apply at a branch. [^schwabira]
+2. **No minimums or account fees** — but you still pay per-trade local commissions (e.g., ~HK$250 for an online Hong Kong trade).
+3. **Eligibility:** individual and joint registrations only, U.S. residents living in the U.S. (so **not IRAs**).
+4. **Fund and trade:** move cash from your Schwab One, **convert USD into the local currency** (Schwab does the FX at a spread), then trade the foreign symbol in local currency during that market's hours.
+
 ## How to find the route for any other name here
 
 For any foreign name in the notebook (Midea, Gree, Haier, Mitsubishi Electric, LG, Samsung, etc.): (1) check whether it has a **U.S. OTC ADR** (search the company name + "ADR" / OTC ticker), and (2) check whether its **home market is one of Schwab's 12**. If neither, it's effectively inaccessible to U.S. retail without a specialty broker. When in doubt, Schwab's **Global Investing desk (800-992-4685)** can confirm availability and the exact order symbol.
 
 [^schwabglobal]: Charles Schwab, "Schwab Global Account — Global Trading," <https://www.schwab.com/global-trading>, and "Global Account Markets and Pricing," <https://www.schwab.com/resource/global-account-markets-and-pricing> (12 markets; Hong Kong online trades HK$250). Accessed June 2026.
+
+[^schwabira]: Charles Schwab, "Schwab Global Investing Account Options," <https://www.schwab.com/global-trading/eligibility> — "The Schwab Global Account is limited to individual and joint account registration types and U.S. residents living in the United States." Add-on and combo applications linked there. Accessed June 2026.
