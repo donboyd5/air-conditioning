@@ -1,0 +1,111 @@
+# Market share and share of growth
+
+This chapter tackles the piece of the original brief not yet quantified: **what share of the industry does each player hold, and — more important for investing — what share of the *growth* are they positioned to capture?** The second question matters more than the first: a company with a modest overall share but a dominant position in the fast, high-margin pools (data-center cooling, services) can be a better investment than a volume leader stuck in the slow, low-margin pools.
+
+::: {.callout-warning}
+## How to read the share numbers
+Market-share data here is genuinely fuzzy, for two reasons. **Basis:** revenue vs. units. Daikin leads on *equipment revenue*; Chinese makers (Midea, Gree) lead on *units* because of China's enormous domestic volume. **Scope:** "air conditioning" vs. "HVAC" vs. regional cuts move a company's share by several points. Most precise percentages come from paywalled secondary aggregators and should be treated as **directional, not authoritative**. The reputable primary anchors are JARN (units), BSRIA (paywalled), and company filings. I give ranges and flag the weakest figures.
+:::
+
+## Global share: a revenue leader and a volume leader
+
+The single most important structural fact: **there is no dominant global player, and "the leader" depends on what you measure.** Daikin is #1 by equipment revenue; the Chinese makers lead by units.
+
+| Company | Approx. global share | Basis | Confidence |
+|---|---|---|---|
+| **Daikin** | ~13–16% | Revenue (global #1) | Med-high on rank, soft on % |
+| **Midea** | ~13–18% | Units-heavy (esp. Asia) | Med |
+| **Gree** | ~10–16% | Units-heavy (China RAC) | Med |
+| **Carrier** | ~6–9% | Revenue (HVAC) | Med |
+| **Haier / Hisense** | ~5–8% each | Units | Low |
+| **Trane Technologies** | ~5–7% | Revenue (applied-heavy) | Med |
+| **Mitsubishi Electric** | ~4–6% | Revenue (VRF/ductless) | Med |
+| **LG** | ~4–6% | Revenue/units | Med |
+| **Johnson Controls** | ~4–6% | Revenue (now applied-focused) | Med |
+| **Samsung / Panasonic / Fujitsu** | ~2–5% each | Revenue/units | Low |
+
+: Approximate global AC/HVAC market share. Ranges from a mix of company filings and secondary aggregators (Mordor, Spherical Insights, Grand View); treat as directional. {#tbl-globalshare}
+
+**Concentration:** moderately concentrated at the top, fragmented in the tail. The **top 5 hold roughly 45–55% combined**, with **no single firm above the mid-teens**, and hundreds of regional players below the top ~10. Regionally, **Asia-Pacific is ~47% of global HVAC revenue**, and China is the single largest market by units (the global room-AC market was **140.6M units in 2024, +4%**, per JARN).[^global]
+
+[^global]: JARN/IIR, "Global air conditioner market 2024 performance," <https://iifiir.org/en/news/global-air-conditioner-market-2024-performance>; Daikin "global No.1" net-sales page, <https://www.daikin.com/air/daikin_brand/glance/modals/01_sales>; Spherical Insights "Top 20 HVAC Companies 2025," <https://www.sphericalinsights.com/blogs/top-20-hvac-companies-in-global-2025-statistics-view-by-spherical-insights-and-consulting>; Asia-Pacific revenue weight via Grand View, <https://www.grandviewresearch.com/horizon/outlook/hvac-systems-market/asia-pacific>.
+
+## U.S. share: a consolidated oligopoly, now reshuffling
+
+The U.S. market is more concentrated than the global one, and it is **actively reshuffling**: in **August 2025, Johnson Controls completed the sale of its residential & light-commercial HVAC business to Bosch** (~\$8B), instantly turning **Bosch** into a major U.S. residential player and shrinking JCI to a commercial/applied + controls company.[^us]
+
+| Company | Approx. U.S. share | Basis | Confidence |
+|---|---|---|---|
+| **Carrier** | ~16–18% | Revenue (residential/NA) | Med |
+| **Trane** | ~10–21% (wide spread) | Revenue (NA vs residential-only) | Med, inconsistent |
+| **Daikin (Goodman/Amana)** | ~13–19% | Revenue/units | Med |
+| **Johnson Controls / York** | ~15% (pre-divestiture) | Revenue | Med, now falling |
+| **Lennox** | ~8–15% | Revenue (residential) | Med |
+| **Rheem** | mid-single digits | Revenue | Low-med |
+| **Bosch** | small but rising fast (post-JCI deal) | Revenue | Med |
+
+: Approximate U.S. HVAC market share. Sources disagree materially; see caveat below. {#tbl-usshare}
+
+::: {.callout-note}
+**Why the U.S. numbers don't add up cleanly.** A commonly cited stat is that **Carrier + Trane + Lennox hold ~50–55% of the U.S. residential market** — yet the individual estimates above, summed with Daikin and JCI, exceed 100%. The discrepancy is real and comes from inconsistent scope (residential-only vs. total HVAC; units vs. revenue; which year) across sources. The honest read: the U.S. is a **consolidated oligopoly of ~5–6 brands (Carrier, Trane, Daikin/Goodman, Lennox, Rheem, and now Bosch)**, but the precise split is not reliably knowable from public secondary data. Note also that **Watsco** is the largest *distributor* (~18% of a fragmented ~\$64B distribution market) — distribution share, not manufacturing.
+:::
+
+[^us]: Johnson Controls, "Completes Sale of Residential and Light Commercial HVAC Business" (Aug 1, 2025), <https://www.johnsoncontrols.com/media-center/news/press-releases/2025/08/01/johnson-controls-completes-sale-of-residential-and-light-commercial-hvac-business>; U.S. share estimates from deallab (<https://en.deallab.info/north-america-hvac-market-2024/>) and GMInsights (<https://www.gminsights.com/industry-analysis/us-residential-hvac-market>); Watsco distribution share via Morningstar, <https://www.morningstar.com/company-reports/1219045-watsco-is-the-largest-hvac-distributor-in-north-america>.
+
+## Where the growth is: five pools
+
+Overall industry growth (~6% in dollars) masks very different sub-pools. This chart is illustrative — the bases differ (units vs. dollars vs. cyclical), so read it as *relative* positioning, not precise forecasts.
+
+![Approximate annual growth by pool. Illustrative only — bases differ (units vs. dollars), and the heat-pump pool in particular is volatile/policy-driven. Generated from `data/growth_pool_cagr.csv`.](figures/growth_pool_cagr.png){#fig-growthpools}
+
+**Pool 1 — Data-center cooling (highest quality).** The fastest, highest-margin pool. Liquid cooling alone is roughly **\$5–6B (2025) growing ~20–25%** to ~\$15–19B by 2030, driven by hyperscaler AI capex (~\$380B in 2025). Captured disproportionately by **Vertiv** (clear leader), **Modine** (fastest grower off a small base — data-center revenue +119% in FY2025), **nVent**, and **Schneider**.[^pool1]
+
+**Pool 2 — Heat pumps / electrification (high quality, cyclical).** A large structural shift, but policy-driven and volatile: European sales **fell ~22% in 2024**, then began rebounding ~+10% in 2025. Captured by **Daikin** (~18–20% EU share), **Carrier** (via its ~€12B Viessmann acquisition), **NIBE** (purest listed play), and private Bosch/Vaillant.[^pool2]
+
+**Pool 3 — Emerging-market first-time adoption (biggest volume, lowest quality).** The largest *unit*-growth pool — India ~15M units (2025) heading toward ~28M by 2030 — but volume-led, thin-margin, and dominated by **Gree, Midea, Haier, Daikin, LG/Samsung**, plus India-listed **Voltas, Blue Star**. Lower-quality growth for Western investors.[^pool3]
+
+**Pool 4 — U.S. replacement + ASP uplift (moderate volume, high value).** Low unit growth but a high-value, replacement-driven base with a genuine ~8–10% price uplift from the refrigerant/efficiency transition. Captured by **Trane, Carrier, Daikin/Goodman, Lennox, Rheem** (carries the antitrust overhang from the [regulation chapter](regulation-pricing.qmd)).
+
+**Pool 5 — Service / aftermarket / controls (highest-margin recurring).** Smaller headline growth but the highest-quality dollars — recurring, high-margin, installed-base-driven. Led by **Trane** (record \$7.8B backlog at YE2025) and **Johnson Controls** (OpenBlue controls), with Carrier and Daikin growing their recurring mix.[^pool5]
+
+[^pool1]: Data-center cooling sizing: Grand View (<https://www.grandviewresearch.com/press-release/global-data-center-cooling-market>), MarkNtel liquid cooling (<https://www.marknteladvisors.com/research-library/data-center-liquid-cooling-market.html>); Modine FY2025 8-K (<https://www.sec.gov/Archives/edgar/data/0000067347/000155837025000627/tmb-20250204xex99d1.htm>). Treat CAGR ranges, not levels, as reliable.
+[^pool2]: EHPA *Market Report 2025* (<https://www.ehpa.org/wp-content/uploads/2025/07/EHPA-Market-Report-2025-executive-summary.pdf>); Carrier–Viessmann deal (<https://naturalrefrigerants.com/news/carrier-announces-e12-billion-acquisition-of-viessmann-groups-heat-pump-business/>).
+[^pool3]: India unit outlook via Expert Market Research (<https://www.expertmarketresearch.com/reports/india-air-conditioner-market>) and Accio (<https://www.accio.com/business/air-conditioner-sales-trend-in-india>). Soft, research-firm sizing.
+[^pool5]: Trane Q4/FY2025 results, record backlog, <https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Reports-Strong-Fourth-Quarter-and-Full-Year-2025-Results-Robust-Bookings-and-Backlog-Provide-Strong-Visibility-Entering-2026/default.aspx>.
+
+## Who is exposed to which growth pool
+
+This matrix is the heart of the "share of growth" question — qualitative exposure (H/M/L), synthesized from the analysis above:
+
+| Company | Data center | Heat pumps | EM adoption | US replace + ASP | Service/controls |
+|---|:--:|:--:|:--:|:--:|:--:|
+| **Vertiv (VRT)** | **H** | – | – | – | M |
+| **Trane (TT)** | L | M | L | **H** | **H** |
+| **Carrier (CARR)** | M | **H** | M | **H** | M |
+| **Daikin (6367.T)** | L | **H** | **H** | **H** | M |
+| **Johnson Controls (JCI)** | M | L | L | L | **H** |
+| **Modine (MOD)** | **H** | – | – | M | L |
+| **Lennox (LII)** | – | L | – | **H** | M |
+| **nVent (NVT)** | **H** | – | – | – | – |
+| **NIBE (NIBE-B)** | – | **H** | L | – | M |
+| **Midea / Gree / Haier** | L | M | **H** | – | L |
+
+: Qualitative exposure to each growth pool (H/M/L). Synthesized; not precise share data. {#tbl-exposure}
+
+## Share-of-growth ranking
+
+Weighting toward pools that are *large and high-quality* (recurring/ASP/margin) rather than pure low-margin volume:
+
+**Tier 1 — most + highest-quality growth exposure.** **Vertiv** (near-pure data-center cooling, the single best pool); **Trane** (U.S. replacement/ASP + best-in-class service/controls + heat-pump optionality); **Carrier** (biggest heat-pump bet + replacement + growing services).
+
+**Tier 2 — strong but narrower or higher-beta.** **Daikin** (uniquely spans all five pools as global #1, but diluted by low-margin emerging-market volume); **Modine** (highest *incremental* data-center leverage off a small base); **Johnson Controls** (best recurring service/controls, weaker elsewhere).
+
+**Tier 3 — narrower or lower-quality.** **Lennox** (clean but single-pool U.S. replacement); **NIBE** (purest heat-pump, single policy-driven pool, highest cycle beta); **nVent** (data-center participant, narrow); **Gree/Midea/Haier** (largest *unit* pool but lowest-margin, Asian-OEM-weighted).
+
+::: {.callout-note}
+**Investor takeaway.** Overall market share and *share of growth* point to different names. By sheer size, the leaders are Daikin and the Chinese volume makers. But the highest share of *high-quality* growth sits with **Vertiv** (data center), **Trane** (replacement + services), and **Carrier** (heat pumps + replacement + services). **Daikin** has the broadest reach but the most diluted quality. The biggest unit growth — emerging-market adoption — accrues mostly to **Chinese/Korean OEMs** and is the lowest-quality pool from a margin standpoint. For your 10–15 year horizon, "share of high-quality growth" is the more useful lens than headline market share.
+:::
+
+::: {.openq}
+**Open questions:** (1) Want me to firm up any single share figure with a primary source (the cleanest would be commissioning BSRIA/JARN, which are paid — otherwise company filings give revenue but not clean share)? (2) Should the exposure matrix become the backbone of a scoring model that combines *share of growth* with the *valuation* data from the financials chapter — i.e., a simple "quality-of-growth vs. price" screen across the shortlist?
+:::

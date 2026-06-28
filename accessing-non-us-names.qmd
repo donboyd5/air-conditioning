@@ -1,0 +1,39 @@
+# Accessing non-US names (US brokerage) {.unnumbered}
+
+Several of the most interesting names in this notebook are not ordinary U.S.-listed stocks. This appendix records the practical routes a U.S. investor (e.g., through Charles Schwab) can use, the trade-offs, and the correct tickers. It is **factual mechanics, not investment advice**, and brokerage offerings change — verify current availability and symbols with your broker before acting.
+
+## Three routes for a U.S. investor
+
+1. **Ordinary U.S. listing.** The simplest case — a normal U.S.-exchange ticker bought in your regular brokerage account in USD. Applies to **Carrier (CARR), Trane (TT), Lennox (LII), Vertiv (VRT), Modine (MOD), nVent (NVT), Solstice (SOLS), Chemours (CC)**.
+
+2. **U.S. OTC ADR / foreign-ordinary.** Many foreign companies have an American Depositary Receipt (ADR) or foreign-ordinary share that trades **over-the-counter (OTC) in USD**, buyable in a normal U.S. account. Convenient, but these are often *unsponsored*, **thinly traded with wide bid-ask spreads**, may carry **ADR custody/pass-through fees**, can lag the home-market price, and offer less liquidity than the home listing. Fine for small buy-and-hold positions; poor for active trading or large size.
+
+3. **Schwab Global Account (home-market listing).** Schwab's Global Account lets you trade the actual foreign listing **online, in local currency**, in **12 markets: Australia, Belgium, Canada, Finland, France, Germany, Hong Kong, Italy, Japan, Netherlands, Norway, and the U.K.** [^schwabglobal] It's a **separate account (free to open/maintain)**, but you'll pay **local commissions** (e.g., **HK$250 per online Hong Kong trade**, ~US$32), an **FX conversion spread** when converting USD↔local currency, trade during **foreign market hours**, and deal with **foreign dividend withholding** and the associated tax reporting.
+
+::: {.callout-warning}
+## What is *not* easily accessible
+**Mainland China A-shares** (Shanghai/Shenzhen — e.g., Sanhua's `002050.SZ`) are **not** in Schwab's 12 Global markets and are generally not available to U.S. retail investors via Schwab. **Sweden** is also not among the 12 markets, so **NIBE** (Stockholm) can't be bought via the Global Account — you'd need its U.S. OTC line (verify the current symbol). When a stock is only A-share or in an uncovered market, the OTC ADR is usually the only retail route.
+:::
+
+## Worked examples: Daikin and Sanhua
+
+| | **Daikin** | **Sanhua** |
+|---|---|---|
+| Home (primary) listing | Tokyo: **6367** (`6367.T` / `6367.JP`) | Shenzhen A-share: **002050.SZ** |
+| Other home listing | — | Hong Kong H-share: **2050** (`02050.HK`) |
+| U.S. OTC ADR | **DKILY** (ADR); **DKILF** (ordinary) | **ZSICY** (ADR) |
+| Buy via normal Schwab US account | Yes — OTC ticker **DKILY** | Yes — OTC ticker **ZSICY** |
+| Buy via Schwab Global Account | Yes — **Japan** market, symbol **6367** (in JPY) | Yes — **Hong Kong** market, symbol **2050** (in HKD) |
+| Not available via Schwab | — | The **A-share 002050.SZ** (mainland China) |
+
+: Access routes for the two names. Tickers verified June 2026; confirm before trading. {#tbl-access}
+
+**Daikin.** Cleanest "real" exposure is the Tokyo line (**6367**) through the Schwab Global Account in yen; the low-friction route is the OTC ADR **DKILY** in your regular U.S. account. Note an ADR represents a set fraction of an ordinary share, so the ADR's dollar price won't equal the Tokyo share price — the economics are the same, the per-unit price differs by the ADR ratio (confirm the ratio on the ADR's profile). Japan applies dividend withholding (treaty rate, typically 15% for U.S. holders).
+
+**Sanhua.** Because the Shenzhen A-share (**002050.SZ**) isn't accessible, your two realistic routes are: the **Hong Kong H-share (2050)** via the Schwab Global Account in HKD, or the **OTC ADR (ZSICY)** in your regular U.S. account. A nuance worth knowing: Sanhua is an **"A+H" dual-listed** company, and H-shares (Hong Kong) frequently trade at a **different — often lower — price** than the A-shares (Shenzhen), even though they're the same company; the OTC ADR typically tracks one of those lines. Hong Kong does not withhold tax on dividends, which simplifies things versus some markets.
+
+## How to find the route for any other name here
+
+For any foreign name in the notebook (Midea, Gree, Haier, Mitsubishi Electric, LG, Samsung, etc.): (1) check whether it has a **U.S. OTC ADR** (search the company name + "ADR" / OTC ticker), and (2) check whether its **home market is one of Schwab's 12**. If neither, it's effectively inaccessible to U.S. retail without a specialty broker. When in doubt, Schwab's **Global Investing desk (800-992-4685)** can confirm availability and the exact order symbol.
+
+[^schwabglobal]: Charles Schwab, "Schwab Global Account — Global Trading," <https://www.schwab.com/global-trading>, and "Global Account Markets and Pricing," <https://www.schwab.com/resource/global-account-markets-and-pricing> (12 markets; Hong Kong online trades HK$250). Accessed June 2026.

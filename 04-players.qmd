@@ -43,7 +43,7 @@ The global air-conditioning equipment industry is led by a handful of names that
 
 **LG and Samsung** — Both are serious in ductless/VRF and (for LG) **data-center cooling**, where LG cited ~\$720 million of regional orders in 2024 — but AC is a modest slice of each company's enormous electronics revenue. Exposure is real but diluted.
 
-**Johnson Controls** — Pivoting *away* from equipment toward commercial building solutions, controls, and service; it agreed to **sell its residential and light-commercial HVAC business to Bosch for \$8.1 billion** [@jci2024sale]. After that, it is more a "smart buildings / service" story than an AC-equipment story.
+**Johnson Controls** — Pivoting *away* from equipment toward commercial building solutions, controls, and service; it **completed the sale of its residential and light-commercial HVAC business to Bosch (~\$8 billion) in August 2025** [@jci2024sale]. It is now more a "smart buildings / service" story than an AC-equipment story — and the deal made **Bosch** a major U.S. residential player overnight (see the [market-share chapter](market-share.qmd)).
 
 **Vertiv** is the cleanest *data-center-cooling* adjacency and is profiled in full — business, segments, growth, backlog, and risks — in the [data-center cooling chapter](data-center-cooling.qmd), alongside Modine and nVent. For **European** growth specifically, the best-positioned listed names are **Carrier** (via its Viessmann heat-pump acquisition), **Daikin**, **NIBE** (Stockholm), and **Mitsubishi Electric**, with Bosch and Vaillant relevant but private — see the [market chapter](03-market-size-growth.qmd#who-is-positioned-for-european-growth-your-specific-interest).
 

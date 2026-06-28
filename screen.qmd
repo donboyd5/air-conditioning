@@ -1,0 +1,78 @@
+# Synthesis: a quality-of-growth vs. price screen
+
+This chapter ties the book together. The [market-share chapter](market-share.qmd) ranked each company by its exposure to high-quality growth pools; the [financials chapter](05-financials.qmd) showed what the market charges for each. This screen puts the two axes on one picture: **where is the high-quality growth available at a reasonable price?**
+
+::: {.callout-important}
+## This is an explicit model, not a fact and not advice
+The "growth-quality score" below is built from **my subjective weights**, applied to the qualitative exposure matrix. It is a transparent, reproducible framework for *thinking*, not an objective measurement — change the weights and the ranking shifts. Nothing here is a recommendation; it is a way to organize the evidence so you can apply your own judgment. The valuation figures are a June 2026 snapshot and move daily.
+:::
+
+## Method
+
+Each company gets a **growth-quality score (0–10)** = the sum, across the five growth pools, of its exposure × the pool's quality weight:
+
+- Exposure: **High = 1.0, Medium = 0.5, Low = 0.25, none = 0** (from the [exposure matrix](market-share.qmd#who-is-exposed-to-which-growth-pool)).
+- Pool quality weights (my assumption — higher = more durable/higher-margin growth): **Data center 3.0, Service/controls 2.5, Heat pumps 2.0, US replacement+ASP 1.5, Emerging-market adoption 1.0.**
+
+The weights deliberately reward *recurring, high-margin, structural* growth (data center, services) over *low-margin volume* (emerging-market units). Then I plot that score against **EV/EBITDA** (a cleaner cross-company valuation measure than P/E here). The data and weights live in `data/screen_scores.csv`; `scripts/make_figures.py` regenerates the chart.
+
+## The scores
+
+| Company | Data ctr (×3.0) | Heat pump (×2.0) | EM adopt (×1.0) | US repl (×1.5) | Service (×2.5) | **Growth-quality /10** | EV/EBITDA | Fwd P/E | FCF yield |
+|---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| **Carrier (CARR)** | M | H | M | H | M | **6.75** | 23.0× | 26.4× | 2.8% |
+| **Daikin (6367.T)** | L | H | H | H | M | **6.50** | **10.0×** | 23.8× | 4.0% |
+| **Trane (TT)** | L | M | L | H | H | **6.00** | 25.8× | 31.1× | 3.0% |
+| **Vertiv (VRT)** | H | – | – | – | M | **4.25** | 49.3× | 44.6× | 2.0% |
+| **Lennox (LII)** | – | L | – | H | M | **3.25** | 18.7× | 22.6× | 3.4% |
+
+: Growth-quality score (exposure × pool weight) vs. valuation. Exposure letters from the market-share exposure matrix; valuation as of June 26–28, 2026. {#tbl-screen}
+
+![Quality of growth vs. price. The shaded upper-left is the "sweet spot" — high-quality growth at a lower multiple. Generated from `data/screen_scores.csv`.](figures/growth_quality_vs_price.png){#fig-screen}
+
+## What the picture says
+
+**Daikin sits alone in the sweet spot** (upper-left): the second-highest growth-quality score (broad exposure across heat pumps, emerging markets, US replacement, and services) at *less than half* the EV/EBITDA multiple of its peers. On this framework it is the most attractive — but the book's earlier caveats are exactly the reasons it's cheap: the lowest operating margins in the group (8.3%), a yen-translation overlay, an event-driven situation (Elliott activist stake), and a growth-quality score that is *broad* but partly built on low-margin emerging-market volume. The screen flags it; your judgment has to weigh whether the discount is opportunity or warning.
+
+**Carrier and Trane are the high-quality "pay up" names.** Carrier edges out on the score (biggest heat-pump bet via Viessmann + replacement + services) at a mid-20s multiple; Trane is the quality benchmark (best margins, best service mix) at the richest multiple of the three non-Vertiv names. Neither is cheap, but both are defensible "quality at a fair-ish price."
+
+**Vertiv is the deliberate outlier.** Its score (4.25) *understates* it: the model rewards breadth, and Vertiv is concentrated in just one pool — but that pool (data-center liquid cooling) is the single best one, and it dominates it. The flip side is the valuation: ~49× EV/EBITDA and ~45× forward earnings price in a lot of AI-capex growth. It is a high-growth, high-multiple, high-beta bet, not a value name — the chart's lower-right.
+
+**Lennox is cheap but narrow.** Lowest growth-quality score (single-pool US replacement) but a reasonable multiple and the best FCF yield — a defensive, U.S.-cyclical compounder rather than a growth story.
+
+::: {.callout-note}
+**How to use this.** The screen says the most interesting *tension* is **Daikin** (cheap + broad, but low-margin/FX/governance) versus **Carrier/Trane** (higher quality, full price) versus **Vertiv** (best single pool, priced for it). If you weight "durable high-margin growth" most heavily, Carrier/Trane/Daikin cluster at the top; if you weight "purest exposure to the fastest pool," Vertiv leads despite the price. The model's job is to make those trade-offs explicit, not to pick for you.
+:::
+
+## Sensitivity: how much do the weights drive the result?
+
+Because the score depends on my subjective pool weights, the honest test is whether the ranking survives different reasonable assumptions. I re-ran it under three weightings (each normalized to a 0–10 scale):
+
+- **Base** — the weights above (data center 3.0, service 2.5, heat pumps 2.0, US replacement 1.5, EM 1.0).
+- **Data-center-heavy** — for an investor who believes AI cooling dominates everything (DC 4.0, service 2.0, heat pumps 1.5, US replacement 1.0, EM 0.5).
+- **Value/defensive** — for an investor who prizes recurring service, replacement, and stability over AI exposure (service 3.0, US replacement 2.5, heat pumps 2.0, EM 1.0, DC 1.5).
+
+| Company | Base | Data-center-heavy | Value/defensive |
+|---|:--:|:--:|:--:|
+| **Carrier (CARR)** | 6.75 | 6.4 | 7.25 |
+| **Daikin (6367.T)** | 6.50 | 5.6 | 7.4 |
+| **Trane (TT)** | 6.00 | 5.4 | 7.1 |
+| **Vertiv (VRT)** | 4.25 | 5.6 | 3.0 |
+| **Lennox (LII)** | 3.25 | 2.6 | 4.5 |
+
+: Growth-quality score under three weightings (0–10, normalized). {#tbl-sensitivity}
+
+![Screen sensitivity — each company's growth-quality score under the three weightings. Generated from `data/screen_sensitivity.csv`.](figures/screen_sensitivity.png){#fig-sensitivity}
+
+**What's robust and what isn't:**
+
+- **Carrier is the most robust** — top or near-top under all three weightings. Its broad exposure means no single assumption makes or breaks it.
+- **Vertiv is the most assumption-sensitive** — it jumps to the front of the pack under data-center-heavy weights and sinks to last under value/defensive weights. Its entire appeal rests on how much you prize the data-center pool; this is the single biggest "know what you're betting on" name.
+- **Daikin and Trane shine under value/defensive weights** (recurring/replacement-heavy) and remain solid in the base case — consistent with their quality-compounder character.
+- **Lennox stays low on growth-quality under every weighting** (it's a value/FCF story, not a growth one) — but recall it's also the cheapest on FCF yield.
+
+The takeaway: the *valuation* picture (Daikin cheap, Vertiv expensive) is a hard fact; the *growth-quality* ranking is assumption-dependent, and the most useful output is knowing **which names are robust (Carrier) versus weight-sensitive (Vertiv)** to your own view of where cooling growth matters most.
+
+::: {.openq}
+**Open questions:** (1) Add **Modine, nVent, and NIBE** to the scatter once their valuation is pulled (they have exposure scores but I limited the screen to names with full financials)? (2) Layer in **analyst price targets / forward estimates** (from Schwab) to add a forward-looking axis? (3) Turn the weighting schemes into an interactive control so you can dial them yourself?
+:::

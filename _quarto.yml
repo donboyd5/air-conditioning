@@ -26,13 +26,16 @@ book:
     - part: "The companies"
       chapters:
         - 04-players.qmd
+        - market-share.qmd
         - 05-financials.qmd
         - adjacencies.qmd
         - 06-private-conglomerates.qmd
     - part: "Synthesis"
       chapters:
+        - screen.qmd
         - 07-watchlist.qmd
   appendices:
+    - accessing-non-us-names.qmd
     - glossary.qmd
     - references.qmd
 

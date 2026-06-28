@@ -44,7 +44,9 @@ The chart shows only regions with hard 2024 unit figures (JARN/IIR). Two big mat
 ![Household AC penetration by region (mixed vintage, 2018–2024). The U.S. and Japan are saturated; Europe and India have the most runway. Sources in `data/ac_penetration_by_region.csv`.](figures/ac_penetration_by_region.png){#fig-penetration}
 
 ::: {.callout-note collapse="true"}
-## Reproduce these charts in R (from the committed CSVs)
+## Reproduce these charts (from the committed CSVs)
+The canonical generator is **`scripts/make_figures.py`** — run `python scripts/make_figures.py` from the repo root (requires `matplotlib`) to regenerate both PNGs in `figures/` from the CSVs in `data/`. Equivalent R, if you prefer:
+
 ```r
 library(ggplot2); library(readr); library(dplyr)
 pen <- read_csv("data/ac_penetration_by_region.csv")

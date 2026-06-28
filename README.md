@@ -35,9 +35,31 @@ Data and figures live in `data/` (CSVs) and `figures/` (committed PNGs; the mark
 
 This project is intended to live in the WSL2 native filesystem (e.g.
 `~/Documents/code_projects/air-conditioning`) for fast R/Python/Quarto/git.
-The book has **no executable code chunks** (figures are committed PNGs in
-`figures/`, regenerable from `data/*.csv` via the R snippet shown in the
-market chapter), so `quarto render` needs only Quarto — no R/Python runtime.
+The book has **no executable code chunks** — figures are committed PNGs in
+`figures/`, generated from `data/*.csv` by `scripts/make_figures.py`
+(`python scripts/make_figures.py`, requires `matplotlib`; equivalent R is
+shown in the market chapter). So `quarto render` needs only Quarto — no
+R/Python runtime. Re-run the script after editing any CSV, then re-render.
+
+## How I work on this project (Cowork vs Claude Code)
+
+The repo (GitHub) is the source of truth; the working copy lives in WSL2.
+Two assistants play different roles:
+
+- **Claude Code (in WSL2)** — the primary driver. Run in the WSL2 terminal
+  inside this folder. Owns the tight loop: edit `.qmd` chapters, run
+  `quarto render`/`preview`, run R/Python (incl. `scripts/make_figures.py`),
+  and **all git operations** (`commit`, `push`, `quarto publish gh-pages`).
+- **Cowork (desktop app)** — research and artifacts. Multi-source web
+  research, data gathering/synthesis, and producing deliverables via skills
+  (e.g., `ac_comp_sheet.xlsx`, Word/PDF/PPT). Best for self-contained
+  "go find and build X" tasks, not in-repo code editing.
+
+**Bridge = git/GitHub.** Division of labor: routine writing/rendering/
+committing/publishing → Claude Code in WSL2; a new research round or artifact
+→ Cowork generates the file/content → you `git commit` it in WSL2 and push.
+Note: the Windows mount blocks git's file-locking, so Cowork should *write
+files* but not own git — let WSL2/Claude Code handle commits and pushes.
 
 ## Publishing to GitHub Pages (when ready)
 
