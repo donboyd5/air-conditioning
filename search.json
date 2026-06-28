@@ -660,7 +660,7 @@
     "href": "07-watchlist.html#changelog",
     "title": "12  Synthesis: watchlist and open questions",
     "section": "Changelog",
-    "text": "Changelog\n\n2026-06-28 — Fourth pass. Added the quality-of-growth vs. price screen (scoring model + scatter, reproducible from data/screen_scores.csv) and an appendix on accessing non-US names (Schwab routes, OTC ADRs, tickers for Daikin & Sanhua).\n2026-06-28 — Third pass. Added the market-share chapter: global & US share tables (with caveats), the five growth pools, a growth-pool chart, a company×pool exposure matrix, and a share-of-growth tier ranking. Updated the JCI→Bosch deal to “completed Aug 2025.”\n2026-06-28 — Second pass. Added glossary; regulation & pricing chapter (SEER2 status, ASP uplift, antitrust); recent-forecast comparison and IEA regional data table + charts; data-center cooling chapter (incl. Vertiv profile); picks-and-shovels adjacencies chapter (refrigerants + components); populated the financial comp table and added ac_comp_sheet.xlsx.\n2026-06-27 — First draft. Breadth-first structure with researched stubs and sourced figures.\n\n\n\n\n\nInternational Energy Agency. (2018). The future of cooling: Opportunities for energy-efficient air conditioning. International Energy Agency. https://www.iea.org/reports/the-future-of-cooling\n\n\nU.S. Department of Energy, Energy Star. (2023). Determining the right SEER2 for your home; 2023 minimum efficiency standards. https://www.energystar.gov/products/heating_cooling\n\n\nU.S. Environmental Protection Agency. (2024). Phasedown of hydrofluorocarbons: The american innovation and manufacturing (AIM) act. https://www.epa.gov/climate-hfcs-reduction/phasedown-hydrofluorocarbons-aim-act",
+    "text": "Changelog\n\n2026-06-28 — Expanded the access appendix: ADR-vs-home-listing guidance for VRT/DKILY/ZSICY, the IRA limitation (Global Account is individual/joint only), and how to open a Global Account.\n2026-06-28 — Fourth pass. Added the quality-of-growth vs. price screen (scoring model + scatter, reproducible from data/screen_scores.csv) and an appendix on accessing non-US names (Schwab routes, OTC ADRs, tickers for Daikin & Sanhua).\n2026-06-28 — Third pass. Added the market-share chapter: global & US share tables (with caveats), the five growth pools, a growth-pool chart, a company×pool exposure matrix, and a share-of-growth tier ranking. Updated the JCI→Bosch deal to “completed Aug 2025.”\n2026-06-28 — Second pass. Added glossary; regulation & pricing chapter (SEER2 status, ASP uplift, antitrust); recent-forecast comparison and IEA regional data table + charts; data-center cooling chapter (incl. Vertiv profile); picks-and-shovels adjacencies chapter (refrigerants + components); populated the financial comp table and added ac_comp_sheet.xlsx.\n2026-06-27 — First draft. Breadth-first structure with researched stubs and sourced figures.\n\n\n\n\n\nInternational Energy Agency. (2018). The future of cooling: Opportunities for energy-efficient air conditioning. International Energy Agency. https://www.iea.org/reports/the-future-of-cooling\n\n\nU.S. Department of Energy, Energy Star. (2023). Determining the right SEER2 for your home; 2023 minimum efficiency standards. https://www.energystar.gov/products/heating_cooling\n\n\nU.S. Environmental Protection Agency. (2024). Phasedown of hydrofluorocarbons: The american innovation and manufacturing (AIM) act. https://www.epa.gov/climate-hfcs-reduction/phasedown-hydrofluorocarbons-aim-act",
     "crumbs": [
       "Synthesis",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Synthesis: watchlist and open questions</span>"
@@ -700,6 +700,28 @@
     ]
   },
   {
+    "objectID": "accessing-non-us-names.html#is-an-adr-always-the-best-route-not-quite",
+    "href": "accessing-non-us-names.html#is-an-adr-always-the-best-route-not-quite",
+    "title": "Accessing non-US names (US brokerage)",
+    "section": "Is an ADR always the best route? Not quite",
+    "text": "Is an ADR always the best route? Not quite\nA reasonable rule of thumb is “use the U.S. ADR when one exists” — it’s the most convenient route (regular account, USD, normal hours). But “convenient” isn’t always “best execution,” and for a genuinely U.S.-listed company there’s no ADR question at all. The three names this notebook focuses on illustrate all three cases:\n\n\n\nTable 2: When the ADR is best (Daikin), unnecessary (Vertiv), or arguably worse than the home listing (Sanhua).\n\n\n\n\n\n\n\n\n\n\nName\nBest Schwab route\nWhy\n\n\n\n\nVertiv\nVRT (ordinary NYSE listing)\nNot an ADR situation — it’s a normal U.S. stock, deepest liquidity, tightest spreads\n\n\nDaikin\nDKILY (OTC ADR)\nADR convenience wins for buy-and-hold; large positions could use Tokyo 6367 via a Global Account\n\n\nSanhua\nZSICY or 2050 (HK)\nThe ADR is convenient but likely thin; for a meaningful position the Hong Kong line may execute better\n\n\n\n\n\n\nSo: ADR is the right call for Daikin, irrelevant for Vertiv (just buy VRT), and the weakest for Sanhua — ZSICY is a recent, likely thinly traded OTC line, so check its live bid-ask spread and average volume, and use a limit order; if the spread looks wide, the Hong Kong shares (2050) via a Global Account may be the better fill. As a general practice for any OTC ADR (DKILY, ZSICY), use limit orders and note that unsponsored ADRs can carry small custody/pass-through fees.\n\n\n\n\n\n\nWarningRetirement accounts (IRAs): the Global Account is not available\n\n\n\nSchwab’s Global Account is “limited to individual and joint account registration types” — it cannot be opened under an IRA 2. In a retirement account you are therefore restricted to U.S.-listed shares and OTC ADRs, which all trade fine in an IRA: VRT, DKILY, ZSICY. The one place this bites is Sanhua: inside an IRA you can only use the ZSICY ADR, because the more-liquid Hong Kong line (2050) requires a Global Account. If ZSICY liquidity looks poor and you want Sanhua, that’s an argument for holding it in a taxable account (with a Global Account) instead of an IRA.",
+    "crumbs": [
+      "Appendices",
+      "Accessing non-US names (US brokerage)"
+    ]
+  },
+  {
+    "objectID": "accessing-non-us-names.html#opening-a-schwab-global-account",
+    "href": "accessing-non-us-names.html#opening-a-schwab-global-account",
+    "title": "Accessing non-US names (US brokerage)",
+    "section": "Opening a Schwab Global Account",
+    "text": "Opening a Schwab Global Account\nIf you decide you want a home-market listing (e.g., Sanhua 2050 in Hong Kong), the Global Account is an add-on linked to a taxable Schwab One brokerage account — not a standalone or retirement account:\n\nApply. If you already have a Schwab One account, use the Schwab Global Account Add-On Application; if not, use the Combo Application (opens both at once). You can also call a Global Investing Specialist at 800-992-4685 or apply at a branch. 3\nNo minimums or account fees — but you still pay per-trade local commissions (e.g., ~HK$250 for an online Hong Kong trade).\nEligibility: individual and joint registrations only, U.S. residents living in the U.S. (so not IRAs).\nFund and trade: move cash from your Schwab One, convert USD into the local currency (Schwab does the FX at a spread), then trade the foreign symbol in local currency during that market’s hours.",
+    "crumbs": [
+      "Appendices",
+      "Accessing non-US names (US brokerage)"
+    ]
+  },
+  {
     "objectID": "accessing-non-us-names.html#how-to-find-the-route-for-any-other-name-here",
     "href": "accessing-non-us-names.html#how-to-find-the-route-for-any-other-name-here",
     "title": "Accessing non-US names (US brokerage)",
@@ -715,7 +737,7 @@
     "href": "accessing-non-us-names.html#footnotes",
     "title": "Accessing non-US names (US brokerage)",
     "section": "",
-    "text": "Charles Schwab, “Schwab Global Account — Global Trading,” https://www.schwab.com/global-trading, and “Global Account Markets and Pricing,” https://www.schwab.com/resource/global-account-markets-and-pricing (12 markets; Hong Kong online trades HK$250). Accessed June 2026.↩︎",
+    "text": "Charles Schwab, “Schwab Global Account — Global Trading,” https://www.schwab.com/global-trading, and “Global Account Markets and Pricing,” https://www.schwab.com/resource/global-account-markets-and-pricing (12 markets; Hong Kong online trades HK$250). Accessed June 2026.↩︎\nCharles Schwab, “Schwab Global Investing Account Options,” https://www.schwab.com/global-trading/eligibility — “The Schwab Global Account is limited to individual and joint account registration types and U.S. residents living in the United States.” Add-on and combo applications linked there. Accessed June 2026.↩︎\nCharles Schwab, “Schwab Global Investing Account Options,” https://www.schwab.com/global-trading/eligibility — “The Schwab Global Account is limited to individual and joint account registration types and U.S. residents living in the United States.” Add-on and combo applications linked there. Accessed June 2026.↩︎",
     "crumbs": [
       "Appendices",
       "Accessing non-US names (US brokerage)"

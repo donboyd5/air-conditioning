@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.12">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-540b1c759bb52299955bd460b1e29831.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ec77a7a963958ad98380ebd9b419c4ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7f9c4c94196527a44adedc8fe97039a3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -280,6 +280,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#three-routes-for-a-u.s.-investor" id="toc-three-routes-for-a-u.s.-investor" class="nav-link active" data-scroll-target="#three-routes-for-a-u.s.-investor">Three routes for a U.S. investor</a></li>
   <li><a href="#worked-examples-daikin-and-sanhua" id="toc-worked-examples-daikin-and-sanhua" class="nav-link" data-scroll-target="#worked-examples-daikin-and-sanhua">Worked examples: Daikin and Sanhua</a></li>
+  <li><a href="#is-an-adr-always-the-best-route-not-quite" id="toc-is-an-adr-always-the-best-route-not-quite" class="nav-link" data-scroll-target="#is-an-adr-always-the-best-route-not-quite">Is an ADR always the best route? Not quite</a></li>
+  <li><a href="#opening-a-schwab-global-account" id="toc-opening-a-schwab-global-account" class="nav-link" data-scroll-target="#opening-a-schwab-global-account">Opening a Schwab Global Account</a></li>
   <li><a href="#how-to-find-the-route-for-any-other-name-here" id="toc-how-to-find-the-route-for-any-other-name-here" class="nav-link" data-scroll-target="#how-to-find-the-route-for-any-other-name-here">How to find the route for any other name here</a></li>
   </ul>
 </nav>
@@ -388,6 +390,74 @@ Table&nbsp;1: Access routes for the two names. Tickers verified June 2026; confi
 <p><strong>Daikin.</strong> Cleanest “real” exposure is the Tokyo line (<strong>6367</strong>) through the Schwab Global Account in yen; the low-friction route is the OTC ADR <strong>DKILY</strong> in your regular U.S. account. Note an ADR represents a set fraction of an ordinary share, so the ADR’s dollar price won’t equal the Tokyo share price — the economics are the same, the per-unit price differs by the ADR ratio (confirm the ratio on the ADR’s profile). Japan applies dividend withholding (treaty rate, typically 15% for U.S. holders).</p>
 <p><strong>Sanhua.</strong> Because the Shenzhen A-share (<strong>002050.SZ</strong>) isn’t accessible, your two realistic routes are: the <strong>Hong Kong H-share (2050)</strong> via the Schwab Global Account in HKD, or the <strong>OTC ADR (ZSICY)</strong> in your regular U.S. account. A nuance worth knowing: Sanhua is an <strong>“A+H” dual-listed</strong> company, and H-shares (Hong Kong) frequently trade at a <strong>different — often lower — price</strong> than the A-shares (Shenzhen), even though they’re the same company; the OTC ADR typically tracks one of those lines. Hong Kong does not withhold tax on dividends, which simplifies things versus some markets.</p>
 </section>
+<section id="is-an-adr-always-the-best-route-not-quite" class="level2">
+<h2 class="anchored" data-anchor-id="is-an-adr-always-the-best-route-not-quite">Is an ADR always the best route? Not quite</h2>
+<p>A reasonable rule of thumb is “use the U.S. ADR when one exists” — it’s the most <em>convenient</em> route (regular account, USD, normal hours). But “convenient” isn’t always “best execution,” and for a genuinely U.S.-listed company there’s no ADR question at all. The three names this notebook focuses on illustrate all three cases:</p>
+<div id="tbl-adr-vs-home" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-adr-vs-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: When the ADR is best (Daikin), unnecessary (Vertiv), or arguably worse than the home listing (Sanhua).
+</figcaption>
+<div aria-describedby="tbl-adr-vs-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Best Schwab route</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Vertiv</strong></td>
+<td><strong><code>VRT</code></strong> (ordinary NYSE listing)</td>
+<td>Not an ADR situation — it’s a normal U.S. stock, deepest liquidity, tightest spreads</td>
+</tr>
+<tr class="even">
+<td><strong>Daikin</strong></td>
+<td><strong><code>DKILY</code></strong> (OTC ADR)</td>
+<td>ADR convenience wins for buy-and-hold; large positions could use Tokyo <code>6367</code> via a Global Account</td>
+</tr>
+<tr class="odd">
+<td><strong>Sanhua</strong></td>
+<td><strong><code>ZSICY</code></strong> <em>or</em> <strong><code>2050</code></strong> (HK)</td>
+<td>The ADR is convenient but likely <strong>thin</strong>; for a meaningful position the Hong Kong line may execute better</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>So: ADR is the right call for <strong>Daikin</strong>, irrelevant for <strong>Vertiv</strong> (just buy <code>VRT</code>), and the <strong>weakest</strong> for <strong>Sanhua</strong> — <code>ZSICY</code> is a recent, likely thinly traded OTC line, so check its live bid-ask spread and average volume, and use a <strong>limit order</strong>; if the spread looks wide, the Hong Kong shares (<code>2050</code>) via a Global Account may be the better fill. As a general practice for any OTC ADR (<code>DKILY</code>, <code>ZSICY</code>), use limit orders and note that unsponsored ADRs can carry small custody/pass-through fees.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Retirement accounts (IRAs): the Global Account is <em>not</em> available
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Schwab’s Global Account is <strong>“limited to individual and joint account registration types”</strong> — it <strong>cannot be opened under an IRA</strong> <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. In a retirement account you are therefore restricted to <strong>U.S.-listed shares and OTC ADRs</strong>, which all trade fine in an IRA: <strong><code>VRT</code>, <code>DKILY</code>, <code>ZSICY</code></strong>. The one place this bites is <strong>Sanhua</strong>: inside an IRA you can only use the <strong><code>ZSICY</code> ADR</strong>, because the more-liquid Hong Kong line (<code>2050</code>) requires a Global Account. If <code>ZSICY</code> liquidity looks poor and you want Sanhua, that’s an argument for holding it in a <strong>taxable</strong> account (with a Global Account) instead of an IRA.</p>
+</div>
+</div>
+</section>
+<section id="opening-a-schwab-global-account" class="level2">
+<h2 class="anchored" data-anchor-id="opening-a-schwab-global-account">Opening a Schwab Global Account</h2>
+<p>If you decide you want a home-market listing (e.g., Sanhua <code>2050</code> in Hong Kong), the Global Account is an <strong>add-on linked to a taxable Schwab One brokerage account</strong> — not a standalone or retirement account:</p>
+<ol type="1">
+<li><strong>Apply.</strong> If you already have a Schwab One account, use the <strong>Schwab Global Account Add-On Application</strong>; if not, use the <strong>Combo Application</strong> (opens both at once). You can also call a <strong>Global Investing Specialist at 800-992-4685</strong> or apply at a branch. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+<li><strong>No minimums or account fees</strong> — but you still pay per-trade local commissions (e.g., ~HK$250 for an online Hong Kong trade).</li>
+<li><strong>Eligibility:</strong> individual and joint registrations only, U.S. residents living in the U.S. (so <strong>not IRAs</strong>).</li>
+<li><strong>Fund and trade:</strong> move cash from your Schwab One, <strong>convert USD into the local currency</strong> (Schwab does the FX at a spread), then trade the foreign symbol in local currency during that market’s hours.</li>
+</ol>
+</section>
 <section id="how-to-find-the-route-for-any-other-name-here" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-find-the-route-for-any-other-name-here">How to find the route for any other name here</h2>
 <p>For any foreign name in the notebook (Midea, Gree, Haier, Mitsubishi Electric, LG, Samsung, etc.): (1) check whether it has a <strong>U.S. OTC ADR</strong> (search the company name + “ADR” / OTC ticker), and (2) check whether its <strong>home market is one of Schwab’s 12</strong>. If neither, it’s effectively inaccessible to U.S. retail without a specialty broker. When in doubt, Schwab’s <strong>Global Investing desk (800-992-4685)</strong> can confirm availability and the exact order symbol.</p>
@@ -398,6 +468,8 @@ Table&nbsp;1: Access routes for the two names. Tickers verified June 2026; confi
 <hr>
 <ol>
 <li id="fn1"><p>Charles Schwab, “Schwab Global Account — Global Trading,” <a href="https://www.schwab.com/global-trading" class="uri">https://www.schwab.com/global-trading</a>, and “Global Account Markets and Pricing,” <a href="https://www.schwab.com/resource/global-account-markets-and-pricing" class="uri">https://www.schwab.com/resource/global-account-markets-and-pricing</a> (12 markets; Hong Kong online trades HK$250). Accessed June 2026.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Charles Schwab, “Schwab Global Investing Account Options,” <a href="https://www.schwab.com/global-trading/eligibility" class="uri">https://www.schwab.com/global-trading/eligibility</a> — “The Schwab Global Account is limited to individual and joint account registration types and U.S. residents living in the United States.” Add-on and combo applications linked there. Accessed June 2026.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Charles Schwab, “Schwab Global Investing Account Options,” <a href="https://www.schwab.com/global-trading/eligibility" class="uri">https://www.schwab.com/global-trading/eligibility</a> — “The Schwab Global Account is limited to individual and joint account registration types and U.S. residents living in the United States.” Add-on and combo applications linked there. Accessed June 2026.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
