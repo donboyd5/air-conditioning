@@ -1,0 +1,56 @@
+# The financial lens
+
+This chapter populates the comparison you asked for across a five-name shortlist — **Carrier (CARR), Trane (TT), Lennox (LII), Daikin (6367.T), and Vertiv (VRT)** — using the latest reported fiscal year and a dated market snapshot. An Excel version of this table is in the project as `ac_comp_sheet.xlsx` for sorting and extending.
+
+::: {.callout-warning}
+## As-of dates — read this first
+Operating figures are the latest reported fiscal year: **FY2025 (ended Dec 31, 2025)** for the four U.S.-listed names; **fiscal year ended March 31, 2026** for Daikin. All market-based figures (price, market cap, P/E, EV/EBITDA, yields) for the U.S. names are **as of June 26–28, 2026**; Daikin's are **as of May 2026** and are distorted by an activist (Elliott Management ~3% stake) situation. **Multiples move daily — re-pull before acting.** Sources: company filings/IR and stockanalysis.com (S&P Global / Fiscal.ai).
+:::
+
+## The populated comp sheet
+
+| Metric | Carrier (CARR) | Trane (TT) | Lennox (LII) | Daikin (6367.T) | Vertiv (VRT) |
+|---|---|---|---|---|---|
+| **Price** | \$73.59 | \$477.89 | \$563.87 | ¥22,855 | \$303.95 |
+| **Market cap** | \$61.1B | \$105.6B | \$19.6B | ~¥6.7T (~\$45B) | \$116.8B |
+| **Latest FY revenue** | \$21.7B | \$21.3B | \$5.2B | ¥5,015B (~\$33B) | \$10.2B |
+| **Revenue growth (reported)** | −3.3% | +7.5% | −2.7% | +5.5% | **+27.7%** |
+| **Gross margin** | 25.9% | 36.2% | 33.4% | 34.5% | 36.3% |
+| **Operating (EBIT) margin** | 10.0% | 18.6% | **20.1%** | 8.3% | 17.9% |
+| **Net income** | \$1.48B | \$2.92B | \$0.81B | ~\$1.83B | \$1.33B |
+| **EPS (diluted, FY)** | \$1.72 | \$12.98 | \$22.79 | ¥939.9 | \$3.41 |
+| **ROIC / ROE** | 7.3% / 9.9% | 25.7% / 36.6% | 27.8% / 76.8%* | – / 9.1% | 32.1% / 45.1% |
+| **Net debt** | \$11.2B | \$3.5B | \$1.9B | ~\$1.1B | \$0.76B |
+| **Net debt / EBITDA (gross D/EBITDA)** | **3.8×** | 1.0× | 1.5× | ~0.2–0.3× | 1.3× |
+| **FCF (FY)** | \$2.1B | \$2.8B | \$0.64B | ~\$1.7B | \$1.9B |
+| **FCF / net income** | high† | ~96% | ~79% | ~93% | ~142% |
+| **Dividend yield / payout** | 1.30% / 62% | 0.88% / 32% | 0.92% / 23% | ~1.4% / 36% | 0.08% / 6% |
+| **Forward P/E** | 26.4× | 31.1× | 22.6× | ~23.8× | 44.6× |
+| **EV / EBITDA** | 23.0× | 25.8× | **18.7×** | **~10×** | 49.3× |
+| **FCF yield** | 2.8% | 3.0% | **3.4%** | ~4% | 2.0% |
+| **HVAC/cooling % of revenue** | ~84% HVAC | HVAC-dominant | ~100% HVAC | ~92% AC | ~30% cooling (data-center) |
+| **Beta (5Y)** | 1.34 | 1.21 | 1.19 | n/a | **2.04** |
+
+: Financial comparison. *Lennox/Vertiv ROE is inflated by low book equity from buybacks — ROIC is the comparable return metric. †Carrier FY2024 GAAP figures are distorted by ~\$4.5B of divestiture gains; FY2025 is the clean comparison. Market data as of Jun 26–28 2026 (Daikin May 2026). {#tbl-financials}
+
+## How to read it
+
+**Trane (TT)** is the quality benchmark: the best margins (18.6% EBIT) and returns (25.7% ROIC) among the diversified names, the lowest leverage (~1.0× gross debt/EBITDA), strong free-cash conversion, and a heavy recurring-service tilt (>40% of revenue is recurring/service per trade-press estimates). You rarely buy it cheap — ~26× EV/EBITDA, ~31× forward earnings.
+
+**Lennox (LII)** is the cheapest and highest-quality-per-dollar of the building-HVAC names: the highest operating margin (20.1%), highest FCF yield (3.4%), lowest EV/EBITDA (18.7×) and forward P/E (22.6×). The trade-offs are slower growth (−2.7% in a down shipment year), the smallest scale, ~100% North American concentration, and full exposure to the U.S. refrigerant/replacement cycle.
+
+**Carrier (CARR)** is the most "in transition": revenue fell as divestitures (Fire & Security, commercial refrigeration) washed through, and it carries the highest leverage (3.8× gross debt/EBITDA) after the Viessmann heat-pump acquisition. Its FY2024 GAAP numbers are distorted by ~\$4.5B of one-time divestiture gains — **use FY2025**. The thesis is a cleaner pure-play HVAC + heat-pump company once the balance sheet de-levers; the ~7% ROIC needs to rise to justify the multiple.
+
+**Daikin (6367.T)** is the purest large-cap cooling bet (~92% AC) and, on these numbers, the cheapest (~10× EV/EBITDA, ~24× forward P/E) with the lowest leverage — but also the lowest margins (8.3% EBIT), a yen-translation overlay, and an event-driven valuation right now (Elliott activist stake disclosed April 2026). Cheap-looking, but margin and governance are the questions.
+
+**Vertiv (VRT)** is a different animal: 28% revenue growth, the best ROIC (32%), and a huge AI-driven backlog — at the price of the richest multiple in the group (~49× EV/EBITDA, ~45× forward P/E) and the highest beta (2.0). It is a data-center-infrastructure growth stock, not a building-HVAC compounder. Detail in the [data-center cooling chapter](data-center-cooling.qmd).
+
+::: {.callout-note}
+**Investor takeaway (not a recommendation).** The group sorts cleanly: **Trane** = highest quality, full price; **Lennox** = best value + margins, but small and U.S.-cyclical; **Daikin** = purest and cheapest, lowest margins + FX/governance overlay; **Carrier** = transition/de-leveraging story; **Vertiv** = high-growth AI play at a high-growth multiple. Which fits depends on whether you want defensive compounding (TT/LII), global pure-play exposure (Daikin), a turnaround (CARR), or AI-cooling growth (VRT). For a 10–15 year horizon, the durable-quality + reasonable-price intersection is where I'd focus the next round of work.
+:::
+
+::: {.openq}
+**Open questions:** (1) Add **Modine (MOD)** and **nVent (NVT)** to this table so the three listed liquid-cooling names sit together? (2) Add the refrigerant/component adjacency names (**Solstice/SOLS, Chemours/CC, Sanhua**) as a second comp table — see the [adjacencies chapter](adjacencies.qmd)? (3) Want me to layer in **analyst consensus estimates and price targets** (which you can pull from Schwab) into a forward-looking version?
+:::
+
+*Sources for this chapter: company FY2025/FY2024 filings (10-K) and investor releases for Carrier, Trane, Lennox, and Vertiv; Daikin Brief Report for the year ended March 2026; market statistics from stockanalysis.com as of June 26–28, 2026. Full URLs are listed in the project's research notes and the Excel comp sheet.*

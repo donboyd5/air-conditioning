@@ -1,0 +1,56 @@
+# The major business players
+
+This chapter maps the field. For each company the questions that matter for investing are: **how big is it, how AC-focused is it (a little or a lot of the business), what is its share of the industry, and is it levered to the high-growth parts (commercial, applied, data center, premium efficiency)?** Figures below are approximate first-pass numbers — the financial chapter and later deepening will tighten them against primary filings.
+
+## The global leaders by AC volume
+
+The global air-conditioning equipment industry is led by a handful of names that recur across rankings: **Daikin, Midea, Gree, Haier, and Carrier**, with **Mitsubishi Electric, LG, Samsung, Johnson Controls, and Trane** close behind.[^rank] Asia-Pacific is the center of gravity, accounting for roughly **47%** of industry revenue.
+
+[^rank]: Spherical Insights, "Top 20 HVAC Companies in Global 2025" (<https://www.sphericalinsights.com/blogs/top-20-hvac-companies-in-global-2025-statistics-view-by-spherical-insights-and-consulting>); Mordor Intelligence air-conditioner market report. Rankings differ by whether they count units, revenue, or HVAC broadly.
+
+## The investable public names at a glance
+
+| Company (ticker) | HQ | Approx. revenue | How AC-focused | Where it's levered | Listed? |
+|---|---|---|---|---|---|
+| **Daikin Industries** (6367.T) | Japan | ~¥4.0 T / ~\$29 B (FY24) | **Very high** — AC is the core | Global; resi + commercial + applied; inverter/VRF leader | Tokyo |
+| **Carrier Global** (CARR) | USA | ~\$20–23 B | **High / pure-play HVAC** | Resi + commercial; heat pumps (Viessmann); data center | NYSE |
+| **Trane Technologies** (TT) | Ireland/USA | ~\$22.5 B | **High / pure-play HVAC** | Commercial-heavy; applied; Thermo King transport refrigeration | NYSE |
+| **Johnson Controls** (JCI) | Ireland/USA | ~\$23 B | **Moderate → falling** (selling resi HVAC to Bosch) | Commercial building systems, controls, service | NYSE |
+| **Lennox International** (LII) | USA | ~\$5.2 B | **High** — North America HVAC | U.S. resi + light commercial + refrigeration | NYSE |
+| **Mitsubishi Electric** (6503.T) | Japan | AC segment ~\$9.4 B | **Low share of a giant** | VRF & ductless leader; commercial | Tokyo |
+| **LG Electronics** (066570.KS) | Korea | AC one of several segments | **Moderate** | Resi + fast-growing **data-center cooling** | Korea |
+| **Samsung Electronics** (005930.KS) | Korea | AC tiny share of total | **Very low share of a giant** | Ductless/VRF; JV with Lennox in North America | Korea |
+| **Midea Group** (000333.SZ) | China | Large appliance conglomerate | **Moderate** | Volume resi AC; commercial via Clivet; European push | Shenzhen/HK |
+| **Gree Electric** (000651.SZ) | China | Large | **High** — AC-centric | Volume resi/commercial AC; mostly China | Shenzhen |
+| **Haier / Haier Smart Home** (600690.SS) | China | Large appliance group | **Moderate** | Resi AC + appliances; global brands (GE Appliances) | Shanghai/HK |
+| **Vertiv** (VRT) | USA | ~\$8 B | Adjacent — **data-center thermal** | Pure-play data-center power & **cooling** | NYSE |
+
+: Approximate snapshot of the major public players. Revenue figures are rounded and drawn from a mix of company results and secondary sources; treat as orders of magnitude pending the financial chapter. {#tbl-players}
+
+## The cleanest "AC growth" exposures
+
+**Daikin Industries** — The world's largest air-conditioning maker, operating in 170+ countries, with AC as essentially its whole business. It reported record results for the fiscal year ended March 2025 (~¥4 trillion / ~€29 billion in net sales), led by applied and commercial AC and by strength in India and Japan [@daikin2024results]. It is the purest large-cap bet on the global cooling story, but trades in Tokyo and at a premium.
+
+**Carrier Global** — Spun out of United Technologies in 2020, Carrier has reshaped itself into a **pure-play HVAC** company: it acquired Viessmann Climate Solutions (European heat pumps) and divested its Fire & Security and commercial-refrigeration businesses [@carrier2024]. That makes it one of the most direct U.S.-listed ways to own residential-plus-commercial cooling and the heat-pump transition. Reported revenue is roughly \$20+ billion.
+
+**Trane Technologies** — A **pure-play climate** company, more commercial- and applied-weighted than Carrier, plus the Thermo King transport-refrigeration franchise. ~\$22.5 billion revenue [@trane2024]. Frequently the market's preferred "quality" name in the group; the question is always valuation.
+
+**Lennox International** — The most concentrated **North American** play (~\$5.2 billion revenue), spanning residential, commercial, and refrigeration, with a 2024 ductless/VRF **joint venture with Samsung** extending its product range [@lennox2024]. Smaller and U.S.-centric, so more exposed to the domestic replacement and refrigerant cycle.
+
+## The "AC is a small part of a giant" names
+
+**Mitsubishi Electric** — The Air Conditioning Systems & Home Products segment generated roughly **\$9.4 billion** in FY2024 and the company is a global VRF/ductless leader [@mitsubishi2024ir] — but that segment is only one part of a sprawling industrial conglomerate (factory automation, power, semiconductors). You get genuine AC leadership diluted by unrelated businesses.
+
+**LG and Samsung** — Both are serious in ductless/VRF and (for LG) **data-center cooling**, where LG cited ~\$720 million of regional orders in 2024 — but AC is a modest slice of each company's enormous electronics revenue. Exposure is real but diluted.
+
+**Johnson Controls** — Pivoting *away* from equipment toward commercial building solutions, controls, and service; it agreed to **sell its residential and light-commercial HVAC business to Bosch for \$8.1 billion** [@jci2024sale]. After that, it is more a "smart buildings / service" story than an AC-equipment story.
+
+**Vertiv** is the cleanest *data-center-cooling* adjacency and is profiled in full — business, segments, growth, backlog, and risks — in the [data-center cooling chapter](data-center-cooling.qmd), alongside Modine and nVent. For **European** growth specifically, the best-positioned listed names are **Carrier** (via its Viessmann heat-pump acquisition), **Daikin**, **NIBE** (Stockholm), and **Mitsubishi Electric**, with Bosch and Vaillant relevant but private — see the [market chapter](03-market-size-growth.qmd#who-is-positioned-for-european-growth-your-specific-interest).
+
+::: {.callout-note}
+**Investor takeaway.** If the goal is *concentrated* exposure to the cooling-and-efficiency growth story via liquid public equity, the shortlist is short: **Daikin** (global, purest, Tokyo-listed), **Carrier** and **Trane** (U.S.-listed pure-plays), and **Lennox** (North-America-concentrated). **Vertiv** is the cleanest *data-center-cooling* adjacency. The conglomerates (Mitsubishi, LG, Samsung, JCI) and the Chinese volume leaders (Midea, Gree, Haier) round out the picture but each comes with a "what am I really buying" caveat.
+:::
+
+::: {.openq}
+**Open question:** Should I add **estimated global market share** (by revenue) for each of these, with sources, so we can see industry concentration and each firm's share of *growth* specifically? That's the one piece from your original brief I have not yet quantified.
+:::

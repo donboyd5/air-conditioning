@@ -1,0 +1,64 @@
+# Picks and shovels: refrigerants and components
+
+Some of the most interesting investable ideas here are *not* the equipment makers. The forced low-GWP refrigerant transition and the rising technical content of systems create demand for two upstream layers — **refrigerant chemicals** and **components (especially compressors and valves)** — where a few firms have real pricing power and where genuine technological change and new leaders are emerging. This is the "picks and shovels" angle you asked to develop.
+
+## Layer 1 — Refrigerant chemicals
+
+The AIM Act (U.S.) and F-Gas Regulation (EU) are forcing the switch from high-GWP R-410A to low-GWP **A2L** refrigerants (R-454B, R-32) and **HFO** blends. That is a multi-year demand surge for the underlying fluorochemicals — and the foundational HFO patents are concentrated in two hands.
+
+### Solstice Advanced Materials (NASDAQ: SOLS) — the cleanest pure-play
+
+The single most important development for this thesis: **Honeywell spun off its Advanced Materials division as Solstice Advanced Materials**, which began trading on Nasdaq as **SOLS on October 30, 2025** [^sols]. The refrigerant/fluorine franchise that used to be an immaterial slice of Honeywell is now a stand-alone stock. FY2025 net sales were ~\$3.9B, of which **refrigerants and applied solutions were ~72%** (refrigerants alone ~\$1.3B). Crucially, in **February 2026 the European Patent Office upheld Solstice's foundational HFO-1234yf process patent** against challenges from Arkema and Chinese producers — its HFO IP portfolio runs into the **mid-2030s** [^sols]. SOLS is the most direct "refrigerant transition" play.
+
+### Chemours (NYSE: CC) — more torque, but PFAS liability
+
+Chemours sells Opteon HFO refrigerants in its Thermal & Specialized Solutions segment (~31% of revenue). The growth is real — **FY2025 TSS sales hit a record ~\$2.1B (+13%), with Opteon volumes up ~56%** on the AIM Act transition [^cc]. But Chemours carries large, partly *uncapped* **PFAS ("forever chemicals") liabilities**: a ~\$450M DOJ settlement, an ~\$875M New Jersey settlement (over 25 years), a share of a ~\$1.185B water-systems settlement, and *unresolved* personal-injury and natural-resource claims [^cc]. So CC offers the most direct Opteon volume torque but you underwrite an open-ended legacy liability. SOLS is the cleaner play; CC is the higher-beta, litigation-encumbered one.
+
+### Who owns the pricing power — and the sector-wide risk
+
+**Solstice (Honeywell) and Chemours jointly dominate the foundational HFO patents** and license them to others, which has historically supported pricing power. Other suppliers are more diluted: **Arkema (Euronext: AKE)** sells R-454B (Forane) under a Honeywell arrangement; **Daikin (6367.T)** is both the #1 AC maker *and* a major fluorochemicals/R-32 producer; **Orbia/Koura (BMV: ORBIA)** and Chinese producers (e.g., **Zhejiang Juhua, 600160.SS**) round out supply but are diluted or access-constrained.
+
+::: {.callout-warning}
+## The "is the moat permanent?" risk: TFA
+HFO refrigerants degrade in the atmosphere into **TFA (trifluoroacetic acid)**, an ultra-persistent compound now under intensifying scrutiny in Europe (2025 reports from PAN Europe and CHEM Trust). If regulators classify TFA as a problematic "forever chemical," the **HFOs themselves could eventually face restriction** — a structural long-term risk to the entire HFO franchise (SOLS, CC, Arkema). This is the single biggest question mark over the refrigerant-chemicals thesis and worth tracking. It also keeps *natural* refrigerants (R-290 propane, CO₂) in play as a longer-term alternative.
+:::
+
+## Layer 2 — Components, especially compressors and valves
+
+The compressor is the "engine" of every system, and valves are its nervous system. This layer is interesting because the technology is changing (oil-free magnetic-bearing compressors, propane-ready parts) and because **EV thermal management** is pulling the same component makers into a second, faster-growing end market.
+
+### The compressor map: mostly private, one big IPO to watch
+
+The marquee names are largely **private**: **Danfoss** (Danish, incl. the Turbocor oil-free compressor), **Bitzer** (German), **Tecumseh**, **Bristol**. The most important development is **Copeland** — the former Emerson Climate Technologies, the global scroll-compressor leader, carved out by Blackstone (~\$14B EV) and rebranded. **Copeland confidentially filed for a U.S. IPO in November 2025** [^copeland] — it is the single most important pending listing in this space and would, for the first time, give public investors direct access to the "heart of the system." Not yet investable; watch the IPO.
+
+Compressor exposure available through *listed* parents includes **Midea (000333.SZ)** — owns GMCC/Welling, the world's largest AC-compressor maker; **Nidec (6594.T / NJDCY)** — owns Embraco; plus **LG (066570.KS)** and **Panasonic (6752.T)**.
+
+### Sanhua (002050.SZ / 02050.HK) — the standout listed component play
+
+The most investable pure-ish component name is **Zhejiang Sanhua Intelligent Controls**. It holds **>50% global share in electronic expansion valves and four-way valves** — the two most critical AC valves — with **FY2024 revenue ~RMB 28B (~\$3.9B, +14%)** and accelerating (H1 2025 net profit +39%) [^sanhua]. The growth engine is **EV thermal management**: Sanhua has been a key **Tesla** thermal supplier since 2016, bridging its AC-valve franchise into autos. It completed an **"A+H" dual listing** in mid-2025 (Hong Kong, raising ~\$1B), which improves access for international investors versus pure mainland A-shares. Its main valve competitor, **Zhejiang Dunan (002011.SZ)**, is the #2 and also plays EV thermal.
+
+### Where the technology is genuinely changing (and who leads)
+
+- **Oil-free magnetic-bearing compressors** — **Danfoss Turbocor** pioneered these (now ~30 years old, >140,000 installed, up to ~40% more efficient than screw compressors, and available on low-GWP HFO-1234ze). A real efficiency edge, riding **data-center chiller** demand — but Danfoss is private.
+- **EV-thermal crossover** — the biggest "upstart-to-leader" dynamic: AC-component makers (Sanhua, Dunan, and Chinese specialists like Aotecar) scaling fast on EV thermal content. **Sanhua is the cleanest listed way to own it.**
+- **Propane (R-290) / natural-refrigerant-ready components** — a fragmented, mostly-private OEM space today; the component beneficiaries (A2/A3-rated valves and sensors) again point back to Sanhua/Dunan.
+
+## Summary: what is actually investable
+
+| Layer | Name | Ticker | Type | Note |
+|---|---|---|---|---|
+| Refrigerant | **Solstice** | SOLS | Public (Nasdaq) | Cleanest HFO-IP pure-play (~72% refrigerant/applied) |
+| Refrigerant | **Chemours** | CC | Public (NYSE) | Most Opteon torque; **PFAS liability** |
+| Refrigerant | Arkema / Daikin / Orbia | AKE / 6367 / ORBIA | Public | Diluted exposure |
+| Compressor | **Copeland** | — | **Private; IPO filed Nov 2025** | The one to watch |
+| Compressor | Danfoss, Bitzer | — | Private | Turbocor tech, not investable |
+| Compressor (via parent) | Midea, Nidec, LG, Panasonic | 000333 / 6594 / 066570 / 6752 | Public | Diluted |
+| Valves/thermal | **Sanhua** | 002050.SZ / 02050.HK | Public | Valve leader + Tesla EV-thermal growth |
+| Valves/thermal | Dunan | 002011.SZ | Public | #2 |
+
+: Investable adjacencies. Tickers are exchanges of primary listing; A-share access may be constrained for U.S. investors. {#tbl-adjacencies}
+
+[^sols]: Manufacturing Dive, "Honeywell completes Solstice Advanced Materials spinoff," <https://www.manufacturingdive.com/news/honeywell-solstice-advanced-materials-spinoff-refrigerant-electronics-/804271/>; Solstice Form 10, <https://www.sec.gov/Archives/edgar/data/2064953/000206495325000006/exhibit991-form10.htm>; Solstice press release on the EPO HFO-1234yf patent ruling (Feb 2026), <https://www.solstice.com/us/en/resources/press-releases>.
+[^cc]: Chemours Q4/FY2025 results, <https://www.chemours.com/en/news-media-center/all-news/press-releases/2026/the-chemours-company-reports-fourth-quarter-and-full-year-2025-results>; DOJ PFAS settlement coverage, <https://www.chemanalyst.com/NewsAndDeals/NewsDetails/chemours-reaches-450-million-settlement-with-u-s-justice-department-42961>; New Jersey settlement, <https://www.chemours.com/en/news-media-center/all-news/press-releases/2025/chemours-dupont-and-corteva-reach-agreement-with-the-state-of-new-jersey>.
+[^copeland]: Cooling Post, "Copeland files for IPO listing," <https://www.coolingpost.com/world-news/copeland-files-for-ipo-listing/>; Blackstone acquisition, <https://www.blackstone.com/news/press/blackstone-completes-acquisition-of-majority-stake-of-copeland-formerly-emerson-climate-technologies/>.
+[^sanhua]: Sanhua H1 2025 performance, <https://www.ainvest.com/news/zhejiang-sanhua-intelligent-controls-strong-h1-performance-growth-potential-2508/>; Hong Kong listing, SCMP, <https://www.scmp.com/business/banking-finance/article/3314294/zhejiang-sanhua-seeks-us1-billion-hong-kong-listing-chinese-firms-rush-city>.

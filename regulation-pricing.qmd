@@ -1,0 +1,52 @@
+# Regulation, standards, and pricing power
+
+This chapter answers two questions you raised directly: (1) are U.S. efficiency standards (SEER2) eroding under the Trump administration, and does it matter for a long-term investor; and (2) how much have the SEER2 and refrigerant changes actually raised equipment prices — the "average selling price (ASP) uplift" that can show up as a structural revenue tailwind.
+
+## Are SEER2 standards eroding? Mostly no — but future tightening has stalled
+
+The short version: **the 2023 SEER2 minimum-efficiency standards are still in force and have not been rolled back.** What the administration has done is freeze and challenge *new* and *future* rules, not repeal the existing floor. Three things are true as of mid-2026:
+
+First, in February 2025 the DOE **postponed the implementation dates** of several Biden-era standards (touching central AC, water heaters, and other products) — a delay of *future* tightening, not a repeal of the 2023 baseline [^doe-postpone]. In May 2025, Congress used the Congressional Review Act to **permanently rescind** standards for *tankless gas water heaters, commercial refrigerators, and walk-in coolers* — real repeals, but **none of them residential AC/heat-pump SEER2 standards** [^cra]. Also in May 2025, DOE *proposed* a broad deregulatory package; it is proposed, contested, and faces near-certain litigation [^bd].
+
+Second, there is a statutory backstop. The Energy Policy and Conservation Act contains an **"anti-backsliding" provision** that bars any new standard weaker than the one it replaces. This is why the existing SEER2 minimums are relatively safe; the practical effect of the current posture is that *future tightening is frozen*, not that today's floor falls [^doe-postpone].
+
+Third, **ENERGY STAR survived.** After signals in 2025 that it might be eliminated, industry pushback kept it funded (~\$33M through FY2026) and moved it from EPA to DOE [^energystar]. Separately, federal *incentives* — notably heat-pump tax credits — are being wound down, which is a demand negative distinct from the standards themselves.
+
+## Does the regulatory stall matter for a 10–15 year investor? Largely no
+
+Even if U.S. federal tightening stays frozen, three forces sustain demand for efficient equipment over your horizon:
+
+The biggest is **electricity prices**. The EIA projects U.S. average residential power around **18¢/kWh in 2026, up from ~17.3¢ in 2025**, and calls for the strongest multi-year electricity-demand growth since 2000 — driven heavily by data centers — with some regions (New England ~30¢, Pacific ~25¢) far above average [^eia]. Rising bills make efficiency a consumer economic decision regardless of any mandate. Second, **state standards and codes** (California and others) and the broader electrification trend persist independently: U.S. heat pumps already *outshipped* gas furnaces in 2025 [^heatpumps]. Third, **the EU is tightening, not loosening** — its revised F-Gas Regulation cuts HFC quotas hard and bans high-GWP refrigerants in new equipment on a faster schedule than the U.S., forcing the same manufacturers to keep investing in efficient, low-GWP designs [^fgas].
+
+::: {.callout-note}
+**Investor takeaway.** For a buy-and-hold horizon, treat the U.S. standards question as a second-order risk. The existing floor is protected by anti-backsliding; the durable demand drivers are rising electricity prices, state rules, EU regulation, and the economics of replacement — none of which depend on the federal administration tightening standards further. The clearer policy *negative* is the loss of U.S. heat-pump tax credits, which dampens near-term subsidy-driven demand.
+:::
+
+## The ASP uplift: how much did SEER2 + the refrigerant switch raise prices?
+
+This is where regulation turns into a revenue tailwind. Two waves stacked:
+
+**The 2023 SEER2 step** was widely reported to raise residential system prices by roughly **15–30%**, but those figures blended the efficiency mandate with general post-2020 inflation, so attribution is imprecise. Some technical commentators argue the true engineering cost of SEER2 compliance was only a few percent, implying much of the increase was pricing power rather than cost pass-through — a claim now echoed in litigation (below).
+
+**The 2025 A2L refrigerant transition (R-410A → R-454B/R-32)** has the cleanest number. Analysts at William Blair, based on distributor checks in early 2025, estimated A2L would **raise HVAC equipment costs ~8–10%, and that the pricing was "sticking,"** with A2L products reaching ~90% of equipment sales by spring 2025 [^wb]. Lennox publicly announced a **~10% price increase** on its new R-454B residential products [^wb]. On top of that, tariffs added an estimated further few percent.
+
+Whether the uplift *sticks* as a multi-year tailwind is the key question for Carrier, Trane, and Lennox. The evidence so far says yes: HVAC equipment producer prices have risen far faster than general goods prices since 2020, and manufacturers held list prices through the 2025 volume downturn rather than discounting.
+
+::: {.callout-warning}
+## A live overhang: antitrust litigation
+The same pricing power that makes the ASP story attractive is now the subject of **antitrust class actions**. Beginning in early 2026, several price-fixing suits named Bosch, Carrier, Trane, Daikin, Lennox, Rheem, and AAON, alleging coordinated price increases and production cuts since 2020. **All defendants deny the allegations**, and the cases are unresolved — but this is a genuine, unquantified risk to the "ASP tailwind sticks" thesis and worth tracking [^antitrust].
+:::
+
+## Pre-buy / air-pocket: noise for your horizon
+
+There was a clear 2024 pre-buy of R-410A equipment followed by a sharp 2025 destocking: combined AC + heat-pump shipments fell about **20% in 2025**, and Carrier's residential business fell ~40% in Q4 2025 as the channel worked off a multi-year inventory "overage" [^heatpumps]. For a 10–15 year investor this is a one-to-two-year inventory and transition distortion — it matters to 2025–2026 earnings optics and short-term traders, not to the long-run replacement-driven trajectory. I would only weight it heavily if it created a depressed entry valuation worth exploiting, or if the antitrust overhang above turned the "sticky pricing" into a liability.
+
+[^doe-postpone]: ACHR News, "DOE Postpones HVAC Efficiency Standards" (Feb 21, 2025), <https://www.achrnews.com/articles/164187-doe-postpones-hvac-efficiency-standards>.
+[^cra]: Utility Dive, "Trump rolls back Biden-era efficiency rules" (May 12, 2025), <https://www.utilitydive.com/news/trump-rolls-back-biden-era-efficiency-rules/747749/>.
+[^bd]: Beveridge & Diamond, "DOE Announces New Wave of Energy Efficiency Rollbacks," <https://www.bdlaw.com/publications/doe-announces-new-wave-of-energy-efficiency-rollbacks-over-a-dozen-product-types-could-be-impacted/>.
+[^energystar]: ACHR News, "Energy Star Program Moving from EPA to DOE," <https://www.achrnews.com/articles/165963-energy-star-program-moving-from-epa-to-doe>; "Energy Star Receives \$33M in Funding Through 2026," <https://www.achrnews.com/articles/165899-energy-star-receives-33m-in-funding-through-2026>.
+[^eia]: EIA, "Strongest four-year electricity demand growth since 2000" (Jan 13, 2026), <https://www.eia.gov/pressroom/releases/press582.php>.
+[^heatpumps]: ACHR News, "Heat Pump, A/C Shipments See 20% Declines in 2025" (Feb 25, 2026), <https://www.achrnews.com/articles/165859-heat-pump-a-c-shipments-see-20-declines-in-2025>.
+[^fgas]: European Commission, "F-gas legislation," <https://climate.ec.europa.eu/eu-action/fluorinated-greenhouse-gases/f-gas-legislation_en>.
+[^wb]: Facilities Dive, "A2L transition, tariffs not yet slowing HVAC sales" (Apr 14, 2025), citing William Blair, <https://www.facilitiesdive.com/news/a2l-transition-tariffs-not-yet-slowing-hvac-sales-william-blair-lennox/745283/>.
+[^antitrust]: ACHR News, "Lawsuit Alleges OEM Coordination Behind HVAC Price Increases," <https://www.achrnews.com/articles/166007-lawsuit-alleges-oem-coordination-behind-hvac-price-increases>; Facilities Dive, "HVAC manufacturers face second suit over price-fixing," <https://www.facilitiesdive.com/news/hvac-manufacturers-face-second-suit-over-price-fixing-allegation/819562/>.

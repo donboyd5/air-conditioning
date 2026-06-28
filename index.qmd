@@ -1,0 +1,33 @@
+# Preface {.unnumbered}
+
+This is a personal research notebook. Its purpose is to help me understand the air-conditioning industry — broadly defined to include cooling and the heat-pump systems that increasingly do both — well enough to judge whether some publicly traded companies are worth a closer look as investments. I am the only intended audience.
+
+## Why air conditioning
+
+Cooling is one of the few large, durable demand stories that sits at the intersection of three trends that are not going away: a warming climate, rising incomes in hot and humid countries, and electrification of heating. The International Energy Agency projects that the global stock of air conditioners will grow from roughly 1.6 billion units around 2018 to about 5.6 billion by 2050 — the equivalent of selling ten new units every second for thirty years [@iea2018cooling]. At the same time, regulation is forcing the installed base to become more efficient and to switch refrigerants, which compresses replacement cycles and rewards companies with the best technology.
+
+::: {.callout-important}
+## A reality check on the growth rate
+That headline 1.6B → 5.6B is a *unit-stock* projection over 32 years, which works out to only about a **4% compound annual growth rate** — respectable but not, on its own, a thrilling number, and it necessarily *decelerates* as saturation rises. The more investable growth comes from two things the unit count hides: **value/mix** (each new unit is more expensive — higher efficiency, inverters, heat pumps, low-GWP refrigerants), and **regional and sub-segment divergence** (emerging-Asia first-time adoption growing double-digit, European heat-pump electrification, and AI-driven data-center cooling growing far faster than the average). Recent near-term industry forecasts cluster around a **~6% annual *dollar* growth rate** versus that ~4% unit pace — the gap is the value-mix premium. The market chapter examines whether independent sources tell a consistent story (they broadly do) and where the fast pockets are.
+:::
+
+The investment question is not "is demand growing" — it clearly is. The harder questions are *who captures that growth*, *how much of each company's business is actually exposed to it*, *which sub-segments and technologies grow fastest*, and *what am I paying for that exposure today*. This notebook is organized around those questions.
+
+## How this notebook is organized
+
+The book moves from the physical product, to the market, to the companies, and finally to a synthesis:
+
+- **The technology** — what air conditioning actually is, the main system types, and where energy-efficiency gains come from (inverters, ductless/VRF, heat pumps, SEER2 standards, and the refrigerant transition).
+- **The market** — how big cooling is, how fast it is growing, and how that growth splits between residential and commercial, and between the U.S., Europe, and the rest of the world.
+- **The companies** — the major public players, how AC-focused each one is, their market share and likely share of *growth*, and a financial-lens framework for comparing them. A separate chapter covers private firms and large conglomerates where AC is a minor segment.
+- **Synthesis** — a running watchlist and a list of open questions to drive the next round of deepening.
+
+## How to read the figures here {.unnumbered}
+
+::: {.callout-warning}
+This is a **first draft built for breadth, not precision**. Market-size figures from commercial research firms vary widely (often 30–40% apart) depending on how they define "the market," and some company figures below are approximate or drawn from secondary sources. Every number here should be re-verified against a primary source — company filings, the IEA, or government data — before it informs any actual investment decision. Where I rely on a primary source I cite it; where I rely on a secondary aggregator I say so and treat the number as a rough order of magnitude.
+:::
+
+::: {.openq}
+**Open questions for Don to steer the next pass:** Which to deepen first — (a) the company-by-company financial comparison, (b) the residential-vs-commercial and U.S.-vs-Europe demand split, or (c) the technology/efficiency-and-refrigerant angle that drives replacement demand?
+:::

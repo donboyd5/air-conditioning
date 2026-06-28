@@ -1,0 +1,24 @@
+# Private companies and diversified conglomerates
+
+These firms are important for *understanding the market* even though most are not directly investable as pure AC bets. They shape pricing, capacity, and competition, and several are acquirers whose moves reveal where value is migrating.
+
+## Large private / closely held players
+
+**Bosch (Robert Bosch GmbH).** A privately held German industrial giant now expanding aggressively in HVAC: it agreed to **acquire Johnson Controls' residential and light-commercial HVAC business for \$8.1 billion**, a move that instantly makes Bosch a top-tier residential HVAC player in North America. Not investable directly, but a major new competitive force and a signal of how strategically attractive the segment is.
+
+**Rheem Manufacturing.** A large, privately held U.S. maker of HVAC and water-heating equipment — a significant competitor to Lennox, Carrier, and Trane in residential and light-commercial, but with no public equity.
+
+**Goodman / Amana.** Major U.S. residential brands — but owned by **Daikin** (Daikin Comfort Technologies), so exposure comes through Daikin's listing.
+
+## Diversified conglomerates where AC is a minor segment
+
+These are publicly traded, but cooling is a small enough slice that buying the stock means buying many other things:
+
+- **Mitsubishi Electric** — genuine VRF/ductless leadership, but inside a broad industrial conglomerate (factory automation, power systems, semiconductors).
+- **LG Electronics / Samsung Electronics** — serious HVAC and (LG) data-center-cooling businesses, diluted within huge consumer-electronics companies.
+- **Panasonic, Toshiba (Carrier-linked), Hitachi (JCI-Hitachi JV), Fujitsu General** — Japanese names with meaningful AC operations embedded in larger groups or joint ventures.
+- **Midea, Haier** — Chinese appliance conglomerates where AC is one large category among many.
+
+## Adjacencies now have their own chapter
+
+The investable *adjacent* ideas — **refrigerant/chemicals suppliers** (Solstice/SOLS, Chemours/CC) levered to the A2L transition, and the **components layer** (Copeland compressors, Sanhua valves) — are developed in full in the [picks-and-shovels chapter](adjacencies.qmd). Two other adjacencies worth noting briefly: **data-center thermal management** (Vertiv, Modine, nVent — see the [data-center chapter](data-center-cooling.qmd)), and **controls / building management** (Johnson Controls, Schneider Electric, Siemens), where the value is software and service rather than equipment.

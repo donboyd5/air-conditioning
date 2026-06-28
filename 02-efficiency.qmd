@@ -1,0 +1,37 @@
+# Where energy-efficiency gains come from
+
+This chapter is the core of the investment thesis: efficiency is not just an environmental story, it is a *demand-pull* story. Regulation that raises minimum efficiency and bans high-warming refrigerants forces the installed base to turn over faster and rewards manufacturers whose technology already clears the new bar. Three levers do most of the work.
+
+## Lever 1 — Inverter (variable-speed) compressors
+
+A conventional compressor runs full-on or off. An **inverter** compressor modulates its speed to match the cooling load, avoiding the energy-hungry on/off cycling. Industry and vendor sources put the electricity savings at roughly **30–50%** versus comparable non-inverter units, with the added benefits of steadier temperatures and quieter operation.[^inv] Inverter penetration is already near-universal in Japan and high in Europe, and is rising in the U.S. as efficiency standards climb — a tailwind for manufacturers (Daikin, Mitsubishi) who built their businesses on it.
+
+[^inv]: MiniSplitsforLess, "Inverter vs Non-Inverter Heating & Cooling," <https://minisplitsforless.com/blogs/news/inverter-technology-explained-why-it-s-ideal-for-heating-and-cooling>. Vendor source; treat the 30–50% range as indicative.
+
+## Lever 2 — System design: ductless, zoning, and VRF
+
+Two structural inefficiencies in traditional ducted central AC are duct losses and whole-house operation. Poorly installed or leaky ducts can waste **25% or more** of conditioned air, and running a whole house when only part is occupied wastes more. Ductless mini-splits eliminate duct losses, and zoning (cooling only occupied spaces) can cut energy use by **up to ~40%** versus central systems that condition everything at once.[^design] VRF extends the same idea to commercial buildings. The efficiency advantage is also a pricing advantage: these are premium-margin formats relative to commodity window units.
+
+[^design]: Carrier, "Are Mini Splits Efficient?" <https://www.carrier.com/residential/en/us/products/ductless-mini-splits/ductless-air-conditioner-cost/are-mini-splits-efficient/>; EnergySage, "Mini Splits vs. Window ACs," <https://www.energysage.com/heat-pumps/mini-splits-vs-window-acs/>.
+
+## Lever 3 — Heat pumps replacing fossil heating
+
+A heat pump is an air conditioner that also runs in reverse to heat. Because it *moves* heat rather than *burning* fuel to make it, a heat pump can deliver several units of heat per unit of electricity (a coefficient of performance well above 1). Electrifying space heating roughly **doubles** a manufacturer's addressable equipment per home (one machine instead of separate furnace and AC) and ties cooling demand to climate policy and electrification incentives. This is why every major "AC" company now markets itself as a heat-pump company.
+
+## The regulatory accelerants: SEER2 and the refrigerant transition
+
+Two U.S. regulatory shifts are pulling demand forward right now:
+
+**Minimum-efficiency standards (SEER2).** The Department of Energy raised minimum residential cooling-efficiency standards in 2023, shifting the metric to SEER2 and raising the floor — forcing higher-efficiency equipment into every new sale [@doe2023seer2].
+
+**The refrigerant phase-down.** Under the **AIM Act of 2020**, the EPA is phasing down high-global-warming-potential (GWP) hydrofluorocarbon refrigerants [@epa2024aim]. The practical effect: as of **January 1, 2025**, new U.S. residential systems can no longer be built with **R-410A** (GWP ≈ 2,088). Manufacturers have moved to low-GWP **A2L** refrigerants — primarily **R-454B** (GWP ≈ 466) for ducted systems and **R-32** (GWP ≈ 675) for ductless.[^refrig] This is a once-in-a-generation forced redesign of nearly every product line.
+
+[^refrig]: Rheem, "What to Know About the 2025 HVAC Refrigerant Change," <https://www.rheem.com/air-conditioning/articles/what-to-know-about-the-2025-hvac-refrigerant-change/>; Lennox, "2025 Low GWP Compliant Refrigerants," <https://www.lennoxpros.com/news/transitioning-to-low-gwp-refrigerants>. GWP values per these sources and EPA.
+
+::: {.callout-note}
+**Investor takeaway.** Each regulatory step does three useful things for incumbents: it (1) raises the average selling price of equipment, (2) pulls forward replacement demand, and (3) penalizes low-tech competitors who cannot meet the new standard. The risk is the mirror image — a *pre-buy* before a deadline can borrow demand from the following year, producing an air-pocket. (Industry data already showed sharp 2025 shipment declines in some categories after the 2023–2025 changes; that cyclicality is a key thing to size before investing.)
+:::
+
+::: {.openq}
+**Open question:** Worth a short page quantifying the **average-selling-price uplift** from SEER2 + A2L refrigerants, and the evidence on pre-buy/air-pocket dynamics? That bears directly on near-term earnings risk for Carrier, Trane, Lennox.
+:::

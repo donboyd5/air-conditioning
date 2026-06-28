@@ -1,0 +1,37 @@
+# What air conditioning is, and its main types
+
+Air conditioning moves heat from inside a space to outside it, using a refrigerant that is compressed and expanded in a cycle (the vapor-compression cycle). The same cycle, run in reverse, is what a **heat pump** uses to bring heat *into* a building — which is why the cooling and heating industries are converging, and why "air conditioning, broadly defined" increasingly means "heat pumps."
+
+For an investor, the system *type* matters because it determines who the customer is, how the product is sold and installed, the price point, and which manufacturers compete. The major categories are below.
+
+::: {.callout-tip}
+## Unfamiliar terms?
+Words like *compressor*, *condenser*, *coil*, *air handler*, *inverter*, *VRF*, and *refrigerant* are defined in plain language in the [Glossary](glossary.qmd). In brief: every air conditioner runs the same **vapor-compression cycle** — a **compressor** (the "engine") pumps a **refrigerant** fluid around a loop; the refrigerant absorbs heat indoors at the **evaporator/indoor coil** and dumps it outdoors at the **condenser** (the outdoor box). A **fan/air handler** blows room air across the coil to actually cool the space, and in a ducted home the **furnace/air handler** also pushes that air through the **ducts**.
+:::
+
+## Residential and light-commercial system types
+
+**Window and portable units.** Self-contained boxes that cool a single room. Cheap, sold through retail, low margin, and dominated by Asian volume manufacturers (Midea, Gree, Haier) plus retail brands. Low technological moat.
+
+**Central / ducted split systems.** The dominant U.S. residential format: an outdoor condenser plus an indoor coil and furnace/air handler, distributing cooled air through ducts. This is the heart of the North American market and where Carrier, Trane, Lennox, Daikin (Goodman/Amana), and Rheem compete.
+
+**Ductless mini-splits.** An outdoor unit connected to one or more wall- or ceiling-mounted indoor heads, with no ductwork. Efficient, increasingly used for heating as well as cooling, and the format in which Daikin and Mitsubishi Electric are especially strong. Fast-growing in North America from a small base.
+
+**Packaged units (rooftop units, "RTUs").** Single-cabinet systems common on small commercial buildings (strip malls, big-box stores). A large, replacement-driven U.S. market.
+
+## Commercial and applied system types
+
+**VRF (variable refrigerant flow).** Networks of indoor units served by a common outdoor system, with refrigerant flow modulated per zone. Efficient and flexible for mid-size commercial buildings; Daikin and Mitsubishi Electric pioneered it and lead it.
+
+**Chillers and applied systems.** Large central plants (chillers, air handlers, cooling towers) for offices, hospitals, campuses, and **data centers** — the fastest-growing commercial sub-segment as AI drives data-center construction. This is the domain of Carrier, Trane, Johnson Controls, and Daikin's Applied business, and increasingly a focus for LG and others.
+
+**District cooling and process/industrial cooling.** Centralized cooling distributed to many buildings, plus refrigeration and process cooling for industry and the cold chain.
+
+::: {.callout-note}
+**Investor takeaway.** The retail end (window units) is high-volume, low-margin, and commoditized. The value tends to concentrate in (1) ducted residential replacement in North America, (2) ductless/VRF where efficiency and zoning command a premium, and (3) **applied/commercial and data-center cooling**, where engineering content, service revenue, and recurring aftermarket are highest. Where a company sits on this spectrum largely explains its margins and multiple — a theme developed in the company chapters.
+:::
+
+::: {.callout-note}
+## Data-center cooling now has its own chapter
+Because it is arguably the single most investable sub-theme here, **data-center cooling** is covered in depth in [its own chapter](data-center-cooling.qmd) — including the air-vs-liquid shift and beneficiaries (Vertiv, Modine, nVent, Schneider, Carrier, Johnson Controls, LG).
+:::

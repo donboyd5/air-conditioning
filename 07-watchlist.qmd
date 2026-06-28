@@ -1,0 +1,43 @@
+# Synthesis: watchlist and open questions
+
+## The thesis in one paragraph
+
+Cooling demand is one of the largest, most durable, climate-and-income-driven growth stories available, with the global AC stock projected to grow roughly 3.5× by 2050 [@iea2018cooling]. On top of that secular base sits a cyclical equipment business that is being *accelerated* by regulation — rising efficiency standards (SEER2) and the forced low-GWP refrigerant transition (AIM Act) — which raises selling prices, pulls forward replacement, and penalizes low-tech competitors [@doe2023seer2; @epa2024aim]. The investing task is to own that growth through companies where AC is a large, high-quality share of the business, at a price that doesn't already fully reflect it.
+
+## Working watchlist
+
+| Tier | Names (tickers) | Rationale |
+|---|---|---|
+| **Core HVAC pure-plays** | Daikin (6367.T), Carrier (CARR), Trane (TT) | Largest, most AC-focused; levered to replacement + structural growth |
+| **Concentrated US** | Lennox (LII) | Pure North American replacement + refrigerant cycle; best value/margins |
+| **Europe heat-pump tilt** | NIBE (NIBE-B.ST), Carrier/Viessmann, Daikin, Mitsubishi (6503.T) | Direct exposure to European electrification runway |
+| **Data-center cooling** | Vertiv (VRT), Modine (MOD), nVent (NVT) | AI-driven liquid-cooling demand; fastest growth, highest multiples |
+| **Refrigerant chemicals** | Solstice (SOLS), Chemours (CC) | A2L/HFO transition; SOLS cleaner, CC higher torque + PFAS risk |
+| **Components** | Sanhua (002050.SZ / 02050.HK); *Copeland IPO — watch* | Valve leader + EV-thermal crossover; Copeland IPO would add compressor access |
+| **Diluted / context only** | Mitsubishi, LG, Samsung, JCI, Midea, Gree, Haier | Real AC exposure but inside larger groups or constrained-access listings |
+
+: Working watchlist — a starting point, not a recommendation. {#tbl-watchlist}
+
+## What would change the picture (risks)
+
+- **Valuation.** The best businesses (Trane, Vertiv, Daikin's quality peers) rarely look cheap — quality and AI growth are at least partly priced in. Lennox and Daikin screen cheapest.
+- **Antitrust overhang.** The 2026 HVAC price-fixing suits against Carrier, Trane, Lennox, Daikin and others put the "sticky ASP uplift" thesis at some risk; all defendants deny the claims, but it's unresolved. See the [regulation chapter](regulation-pricing.qmd).
+- **AI-capex cyclicality.** The data-center cooling names (VRT/MOD/NVT) are levered to a concentrated set of hyperscaler customers and the AI capital cycle — high beta in both directions.
+- **TFA / HFO regulation.** The refrigerant-chemicals thesis (SOLS/CC) carries a long-tail risk that HFOs themselves face future restriction as TFA scrutiny grows.
+- **Cyclical air-pocket.** The 2024 pre-buy / 2025 shipment decline is near-term noise for a 10–15 year horizon, but could create a cheaper entry point worth exploiting.
+- **China and tariffs; commodity low-end.** Volume leaders (Midea/Gree/Haier) and supply chains carry policy risk; window/portable units are commoditized — don't mistake volume leadership for profit leadership.
+
+## Open questions to drive the next pass
+
+::: {.openq}
+1. **Industry concentration / share of growth** — quantify each major player's global market share *and* share of expected growth (the one piece of your original brief not yet done).
+2. **Europe deep-dive** — a dedicated NIBE + European heat-pump-pure-play page?
+3. **Expand the comp table** — add Modine, nVent (data-center) and SOLS, CC, Sanhua (adjacencies) as their own comp tables; layer in analyst estimates/price targets (from Schwab)?
+4. **Technology watch** — track the genuinely emerging tech (solid-state/magnetocaloric, R-290 propane, AI controls) as a private/early-stage optionality list?
+5. **Valuation work** — for the 2–3 names you find most interesting, a proper quality-vs-price write-up (and possibly a DCF / reverse-DCF).
+:::
+
+## Changelog {.unnumbered}
+
+- **2026-06-28** — Second pass. Added glossary; regulation & pricing chapter (SEER2 status, ASP uplift, antitrust); recent-forecast comparison and IEA regional data table + charts; data-center cooling chapter (incl. Vertiv profile); picks-and-shovels adjacencies chapter (refrigerants + components); populated the financial comp table and added `ac_comp_sheet.xlsx`.
+- **2026-06-27** — First draft. Breadth-first structure with researched stubs and sourced figures.

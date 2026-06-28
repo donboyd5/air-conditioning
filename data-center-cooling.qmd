@@ -1,0 +1,74 @@
+# Data-center cooling: the fastest-growing cooling market
+
+This is, by some distance, the highest-growth corner of "air conditioning broadly defined," and it overlaps only partly with the residential/commercial HVAC names. It deserves its own chapter because the demand driver (AI compute), the technology (liquid cooling), and the beneficiaries (Vertiv, Modine, nVent, Schneider) are largely distinct from the broad-AC story.
+
+## Why it is growing: heat density, not floor space
+
+The driver is **rack power density**. A traditional server rack drew ~10–15 kW; AI training and inference racks now run 30–50 kW commonly, and next-generation GPU racks are cited at **100–300+ kW**. Air physically cannot remove heat at those densities, which forces a structural shift from air cooling to **liquid cooling**. So unlike the broad AC market (driven by climate and incomes), data-center cooling growth is driven by the AI capital-expenditure cycle — faster, but also more cyclical and more concentrated among a handful of hyperscale customers.
+
+## Air vs. liquid — and what is winning within liquid
+
+The reality is **hybrid**: direct-to-chip liquid for the hottest GPUs, air or rear-door exchangers for the rest, immersion in select niches.
+
+**Direct-to-chip (cold plate) — the near-term winner.** Coolant is piped to metal plates sitting on the CPU/GPU. It is the fastest-growing mainstream method, cited at roughly **43–47% of liquid-cooling share in 2025**, and is favored in NVIDIA's reference designs.
+
+**Rear-door heat exchangers (RDHx) — transitional.** Liquid-cooled panels on the back of the rack; used as a retrofit/bridge and in hybrid halls, but limited at the highest densities.
+
+**Immersion cooling — high efficiency, slower adoption.** Servers submerged in a non-conductive (dielectric) fluid. The highest projected growth rate (some estimates ~26–34% CAGR) but off a small base, held back by serviceability, fluid cost, and (for two-phase) PFAS concerns.
+
+**CDUs (coolant distribution units) — the indispensable plumbing.** Every liquid deployment needs CDUs to move coolant between the facility loop and the server loops. Strong attach-rate growth across all methods, making CDU makers a relatively method-agnostic way to play liquid cooling.
+
+## Market size and growth (ranges — sources disagree)
+
+Estimates vary widely, but all point to a high-teens-to-30%+ CAGR for the **liquid** slice:[^dcmkt]
+
+| Segment | Rough size | Forecast | CAGR | Source |
+|---|---|---|---|---|
+| Data-center **liquid** cooling | ~\$4–6B (2026) | ~\$25–28B (2033–35) | **~18–31%** | MarketsandMarkets / GMInsights / Precedence |
+| **Total** data-center cooling (air+liquid) | ~\$16B (2025) | ~\$46B (2033) | **~14%** | DataM Intelligence |
+
+: Data-center cooling market estimates. Wide dispersion; liquid is the high-growth slice of the larger cooling pool. {#tbl-dccooling}
+
+[^dcmkt]: MarketsandMarkets, "Data Center Liquid Cooling Market," <https://www.marketsandmarkets.com/Market-Reports/data-center-liquid-cooling-market-84374345.html>; GMInsights, <https://www.gminsights.com/industry-analysis/data-center-liquid-cooling-market>; DataM Intelligence (total cooling), <https://www.datamintelligence.com/research-report/data-center-cooling-market>. Treat as orders of magnitude.
+
+## The players and how investable each is
+
+| Company | Ticker | Exposure | Notes |
+|---|---|---|---|
+| **Vertiv** | VRT | **Closest large-cap "AI cooling + power" play** | Power + thermal (incl. liquid) + services; profiled below |
+| **Modine** | MOD | **High & rising** | Airedale brand; air-side + chillers; large data-center backlog and growth |
+| **nVent Electric** | NVT | **Growing, CDU/connection content** | CDUs, rear-door HX, manifolds; bought Avail EPG; NVIDIA-aligned |
+| **Schneider Electric** | SU.PA / SBGSY | Diversified | Acquired **Motivair** (CDUs/cold plates, ~\$850M); huge electrical-infra parent |
+| **Carrier** | CARR | Small but inflecting | Data-center revenue scaling toward ~\$1B from a small base |
+| **Johnson Controls** | JCI | Diversified | Silent-Aire CDUs; invested in two-phase startup Accelsius |
+| **Munters** | MTRS.ST | Meaningful | Evaporative + liquid; air-treatment heritage (Stockholm) |
+| **LG Electronics** | 066570.KS | Small/new entrant | Pushing into data-center chillers/HVAC |
+| **Boyd; CoolIT; Motivair; Stulz** | — | Pure-play liquid | **Private** (Boyd: Goldman; CoolIT: KKR; Motivair: now Schneider; Stulz: German family) |
+| **Asetek** | ASTK.OL | Liquid cooling (smaller) | Note: it exited the *HPC niche* in 2021 — it did **not** exit liquid cooling |
+| **LiquidStack / GRC / Submer / Iceotope / ZutaCore** | — | Immersion/two-phase | **Private**, VC-stage optionality |
+
+: Data-center cooling players. The cleanest listed pure-play-ish exposures are Vertiv (VRT), Modine (MOD), and nVent (NVT). {#tbl-dcplayers}
+
+::: {.callout-note}
+**Correction worth noting:** the **Liebert** precision-cooling brand belongs to **Vertiv** (via the former Emerson Network Power), *not* Daikin — a common mix-up. Vertiv's cooling heritage is Liebert.
+:::
+
+## Vertiv (VRT) profile
+
+**What it does.** Vertiv designs, makes, and services critical digital-infrastructure equipment: **critical power** (UPS, switchgear, busway), **thermal management** (precision air cooling and, increasingly, **liquid cooling** — cold plates, CDUs, heat rejection), **integrated rack/modular systems**, and **lifecycle services**. It carries the **Liebert** cooling and **Geist/NetSure** power brands, and traces to Emerson Network Power.
+
+**Scale and momentum (FY2025).** Net sales **~\$10.2B, +27.7% year over year**; operating margin ~17.9%; free cash flow ~\$1.9B (FCF conversion ~142%). Most striking is the order book: **backlog ~\$15.0B (up ~109%)**, with Q4 2025 organic orders up ~252% and a book-to-bill near 2.9× — roughly 12–18 months of forward revenue visibility. Management guides ~27–29% organic revenue growth for 2026.[^vrt]
+
+**How cooling-focused is it?** Thermal management is roughly **~30% of revenue** (with power ~32%, services ~23%, IT/integrated the rest), but Vertiv does not break out a precise cooling-vs-power split, and liquid cooling is described as the fastest-growing, highest-margin part of the mix. So Vertiv is **not** a building-HVAC company — it is an **AI-data-center infrastructure** company whose cooling franchise is a major, fast-growing slice.
+
+**Competitive position and risk.** Vertiv is the leading scaled "one-stop" vendor combining power + thermal + services for AI data centers — broader than pure-play coolers (CoolIT, Boyd) and more cooling-deep than power-only peers (Eaton). It has been deepening the liquid-cooling/services moat through acquisitions (PurgeRite, Strategic Thermal Labs, ThermoKey). The risks are the flip side of the thesis: the valuation is rich (see the financial chapter — ~49× EV/EBITDA, beta ~2.0), earnings are tied to the AI-capex cycle, customer concentration is high among a few hyperscalers, and competition (Schneider/Motivair, nVent, Modine) could compress liquid-cooling margins over time.
+
+[^vrt]: Vertiv FY2025 results, company IR and SEC 8-K, <https://investors.vertiv.com/>; SEC filing, <https://www.sec.gov/Archives/edgar/data/0001674101/000167410125000031/exhibit991vrt-12042025.htm>. Market multiples as of June 2026 — see the [financials chapter](05-financials.qmd).
+
+::: {.callout-note}
+**Investor takeaway.** Data-center cooling is the place where genuinely *new* technology (liquid cooling) maps onto the *fastest* revenue growth — and it answers your "newer technology = bigger growth" question more clearly than the residential side. But it is an AI-capex play with AI-capex risk: high growth, high multiples, high cyclicality, concentrated customers. **Vertiv** is the flagship; **Modine** and **nVent** are the higher-purity cooling/CDU adjacencies; the cleanest pure-plays (Boyd, CoolIT) are private.
+:::
+
+::: {.openq}
+**Open question:** Do you want Modine (MOD) and nVent (NVT) added to the financial comp table alongside Vertiv, so the three liquid-cooling listed names sit side by side? And should immersion-cooling startups be tracked as a private-market watch list, or ignored as un-investable?
+:::

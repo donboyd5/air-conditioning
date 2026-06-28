@@ -1,0 +1,6 @@
+# References {.unnumbered}
+
+The list below is generated from `references.bib` (primary and authoritative sources). Secondary market-research and vendor sources are cited inline as footnotes within each chapter, and should be treated as rough or indicative rather than authoritative.
+
+::: {#refs}
+:::

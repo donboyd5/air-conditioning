@@ -1,0 +1,75 @@
+# Glossary {.unnumbered}
+
+Plain-language definitions of the technical terms used throughout this notebook. The aim is to make the company and market chapters readable without prior HVAC knowledge.
+
+## The core machine
+
+**Vapor-compression cycle.** The basic physics behind almost all air conditioners, refrigerators, and heat pumps. A fluid (the *refrigerant*) is repeatedly compressed and expanded; as it changes between liquid and gas it absorbs heat in one place and releases it in another. The whole industry is essentially variations on this one cycle.
+
+**Refrigerant.** The working fluid that carries heat through the system. It boils (absorbs heat) at low pressure indoors and condenses (releases heat) at high pressure outdoors. Which refrigerant a system uses is now a regulatory and competitive battleground — see *R-410A*, *R-454B*, *R-32*, *A2L*.
+
+**Compressor.** The pump at the heart of the system. It compresses the refrigerant gas, raising its pressure and temperature so it can release heat outdoors. It is the most expensive and most energy-consuming component, and the part where efficiency technology (see *inverter*) matters most. Think of it as the "engine" of an air conditioner.
+
+**Condenser.** The outdoor heat exchanger (coil) where hot, compressed refrigerant releases its heat to the outside air and condenses back into a liquid. The "outdoor unit" you see beside a house is mostly the condenser plus the compressor and a fan.
+
+**Evaporator / indoor coil.** The indoor heat exchanger where the refrigerant evaporates, absorbing heat from the room air blown across it — this is what actually cools your air.
+
+**Air handler / furnace.** The indoor box that blows air across the indoor coil and pushes it through the ducts. In a heating-plus-cooling home it is often combined with the furnace (which burns gas) or, increasingly, replaced by a *heat pump* air handler (all-electric).
+
+**Ducts.** The network of channels that distribute conditioned air through a building. Leaky or poorly designed ducts waste energy — a major reason *ductless* systems can be more efficient.
+
+## System types
+
+**Central / ducted split system.** The standard U.S. home setup: an outdoor *condenser* unit plus an indoor *coil* and *air handler*, connected by refrigerant lines, distributing cooled air through *ducts*. "Split" means the system is split between outdoor and indoor units.
+
+**Ductless mini-split.** An outdoor unit connected directly to one or more wall/ceiling indoor "heads," with no ducts. Efficient and good for zoning; a format where Daikin and Mitsubishi Electric are strong.
+
+**Packaged unit / RTU (rooftop unit).** A single cabinet containing all components, often mounted on the roof of a small commercial building.
+
+**VRF (Variable Refrigerant Flow).** A commercial system where one outdoor unit serves many indoor units, varying the refrigerant flow to each zone for efficiency and individual control. Pioneered and led by Daikin and Mitsubishi Electric.
+
+**Chiller / applied system.** Large central cooling plants for big buildings, campuses, hospitals, and data centers. "Applied" means engineered and assembled for a specific building rather than sold as a standard box.
+
+**Heat pump.** An air conditioner that can run in reverse to *heat* a building as well as cool it. Because it moves heat rather than burning fuel, it can deliver several units of heat per unit of electricity. Central to the electrification-of-heating story.
+
+## Efficiency and performance
+
+**Inverter (variable-speed) compressor.** A compressor that modulates its speed to match demand instead of cycling fully on and off. Saves roughly 30–50% of electricity versus older fixed-speed compressors and runs more quietly and steadily.
+
+**SEER2 (Seasonal Energy Efficiency Ratio 2).** The current U.S. rating for cooling efficiency over a season — higher is better. "SEER2" is the updated 2023 test method that replaced the older "SEER." Minimum SEER2 levels are set by federal regulation.
+
+**HSPF2 (Heating Seasonal Performance Factor 2).** The heating-season counterpart of SEER2 for heat pumps.
+
+**COP (Coefficient of Performance).** Units of heating or cooling delivered per unit of electricity consumed. A COP of 3 means three units of heat moved per unit of electricity — why heat pumps beat resistance heating and gas.
+
+**Cold-climate heat pump.** A heat pump engineered (often with *enhanced vapor injection*) to deliver rated heating output at very low outdoor temperatures (down to roughly −13°F to −22°F), removing the main historical objection to heat pumps in cold regions.
+
+## Refrigerants and regulation
+
+**GWP (Global Warming Potential).** How much a gas warms the planet relative to CO₂ (which is defined as 1). Old refrigerant R-410A has a GWP of ~2,088; the new ones are far lower. Regulation is forcing the industry toward low-GWP refrigerants.
+
+**R-410A.** The high-GWP refrigerant that dominated U.S. air conditioning for two decades. As of January 1, 2025, it can no longer be used in *new* U.S. residential systems (existing systems are still serviced).
+
+**R-454B and R-32.** The low-GWP replacement refrigerants. R-454B (GWP ~466) is favored for ducted systems (Carrier, Trane); R-32 (GWP ~675) for ductless (Daikin). Both are far below R-410A.
+
+**A2L.** A safety classification meaning "mildly flammable." The new low-GWP refrigerants (R-454B, R-32) are A2L — hard to ignite, but requiring updated equipment, codes, and technician training.
+
+**HFC (hydrofluorocarbon) and HFO (hydrofluoro-olefin).** HFCs are the older high-GWP refrigerant chemistry being phased down; HFOs are the newer low-GWP chemistry. Companies like Honeywell (Solstice) and Chemours (Opteon) own much of the HFO intellectual property.
+
+**AIM Act (2020).** The U.S. law (American Innovation and Manufacturing Act) directing the EPA to phase down HFC refrigerants — the legal driver behind the R-410A → A2L transition.
+
+**F-Gas Regulation.** The European Union's equivalent and stricter framework, cutting HFC quotas aggressively and banning high-GWP refrigerants in new equipment on a faster timeline than the U.S.
+
+**TFA (trifluoroacetic acid).** A persistent breakdown product of HFO refrigerants, now under environmental scrutiny in Europe. A potential long-term regulatory risk to the entire HFO franchise.
+
+## Data-center cooling
+
+**Liquid cooling.** Cooling computer chips with liquid rather than air, necessary as AI chips produce far more heat than air can remove. Includes *direct-to-chip* and *immersion*.
+
+**Direct-to-chip (cold plate).** Liquid is piped to metal plates sitting directly on the hot chips. The leading near-term liquid-cooling method.
+
+**Immersion cooling.** Servers are submerged in a non-conductive (dielectric) fluid. Very efficient but operationally disruptive; slower adoption.
+
+**CDU (Coolant Distribution Unit).** The pump-and-heat-exchanger skid that circulates coolant between the building's cooling system and the server liquid loops. Required in every liquid-cooled deployment.
+
+**Rack power density.** How much electrical power (and therefore heat) a server rack consumes, in kilowatts. AI has pushed this from ~10 kW toward 100+ kW, forcing the shift to liquid cooling.

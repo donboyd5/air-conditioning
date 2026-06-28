@@ -1,0 +1,57 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "The Air Conditioning Investment Notebook"
+  subtitle: "Cooling technology, efficiency, market growth, and the companies that stand to benefit"
+  author: "Don Boyd"
+  date: today
+  date-format: "MMMM YYYY"
+  reader-mode: true
+  search: true
+  page-footer:
+    left: "A personal research notebook. Draft — figures should be re-verified before any investment use."
+  chapters:
+    - index.qmd
+    - part: "The technology"
+      chapters:
+        - 01-what-is-ac.qmd
+        - 02-efficiency.qmd
+        - regulation-pricing.qmd
+    - part: "The market"
+      chapters:
+        - 03-market-size-growth.qmd
+        - data-center-cooling.qmd
+    - part: "The companies"
+      chapters:
+        - 04-players.qmd
+        - 05-financials.qmd
+        - adjacencies.qmd
+        - 06-private-conglomerates.qmd
+    - part: "Synthesis"
+      chapters:
+        - 07-watchlist.qmd
+  appendices:
+    - glossary.qmd
+    - references.qmd
+
+bibliography: references.bib
+csl: https://www.zotero.org/styles/apa
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+
+execute:
+  freeze: auto
+  warning: false
+  message: false
